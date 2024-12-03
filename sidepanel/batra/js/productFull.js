@@ -1,4 +1,5 @@
-
+var pageTTS = `Attends un peu je recherche de l'information
+`
 let jsonProductGlobal;
 let db = new Localbase('db_batra_link');
 var currentHistories = [];
@@ -250,6 +251,7 @@ async function generatePrompt() {
 
         const separator = '\n'; // Séparateur lisible pour un prompt
         const promptString = allTexts.join(separator);
+
         translate(promptString)
     }, 1000); // Temps en millisecondes (1000 ms = 1 seconde)
 
@@ -1741,10 +1743,13 @@ var canTranslate;
 var translation;
 var translator;
 async function translate(text) {
+    
+    document.getElementById('popupGeminiImage').classList.remove('popupGeminiButton_unselected')
     var languagePair = {
         sourceLanguage: "fr", // Or detect the source language with the Language Detection API
         targetLanguage: 'en',
     };
+    
     console.log("detected language : " + "fr");
     canTranslate = await translation.canTranslate(languagePair);
     console.log(`can translate fr->en : ${canTranslate}`);
@@ -1767,9 +1772,17 @@ async function translate(text) {
     console.log("en : " + text)
     console.log(resultTranslate)
     document.getElementById('prompt-input').innerHTML += resultTranslate;
-    popupGeminiImage.classList.remove("popupGeminiButton_unselected");
+
+    document.getElementById(selectedLanguage).classList.remove('bumpingImage');
+
+    document.getElementById('popupGeminiImage').classList.add('popupGeminiButton_unselected')
     popupGeminiImage.classList.add("bumpingImage");
-    document.getElementById('submit-button').click();
+    $("#popupGeminiImage").on('click', function (event) {
+        popupGeminiImage.classList.remove("popupGeminiButton_unselected");
+        document.getElementById('submit-button').click();
+    });
+    
+    
 }
 
 

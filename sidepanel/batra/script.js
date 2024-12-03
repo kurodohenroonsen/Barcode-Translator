@@ -31,26 +31,21 @@ const SYSTEM_PROMPT = "You are a helpful and friendly assistant.";
       await summarizer.ready;
     }
   } else {
-    console.log(`The summarizer can't be used at all.`)
+    // The summarizer can't be used at all.
   }
   var selectedSearchEngine = "DuckDuckGo";
   var promptNotFound = ""
   var textarea;
   async function gtinNotFound(gtin) {
     var popupDialog = document.getElementById("popupDialog");
-    promptNotFound = `Explain the product's history in a kid-friendly way, list benefits and drawbacks, analyze suitability for general use, then if foodd share 2 full recipes from 2 diferents country using it else other product type then give usage and storage instructions, give also 4 alternatives. Keep blocks concise and TTS-friendly in style. input :`
+    promptNotFound = `Explain the product's history in a kid-friendly way, list benefits and drawbacks, analyze suitability for general use, then share 2 full recipes  or usages and 4 alternatives. Keep blocks concise and TTS-friendly in style. input :`
     var buttonLaunchGemini = document.createElement('button');
     buttonLaunchGemini.classList.add("title");
     buttonLaunchGemini.innerHTML = await translateMessage("Lancer Gemini Nano");
     textarea = document.createElement('textarea');
     textarea.innerHTML = await translateMessage(promptNotFound);
-    textarea.style.width = "90%";
-    textarea.id = "promptSearch";
+    textarea.style.width = "90%"
     popupDialog.prepend(textarea);
-    var etapes = document.createElement('checkbo');
-    etapes.innerHTML = await translateMessage(`4. Nous allons appliquer le prompt suivant pour demander plus d'infos sur ce produit avec le résumé généré comme input.`);
-    popupDialog.prepend(etapes);
- 
     var etapes = document.createElement('p');
     etapes.innerHTML = await translateMessage(`4. Nous allons appliquer le prompt suivant pour demander plus d'infos sur ce produit avec le résumé généré comme input.`);
     popupDialog.prepend(etapes);
@@ -74,16 +69,9 @@ const SYSTEM_PROMPT = "You are a helpful and friendly assistant.";
     popupDialog.show();
     document.getElementById("modalContainer").style.display = "block";
   }
-  const writer = await ai.writer.create({
-    tone: "more-casual",
-    length: "longer",
-    format: "plain-text",
-    sharedContext: "Rewrite this mix web search as you are a seller of this product, give the product name, brand, orgine country",
-  })
-  var busy=false;
+
   chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
-    if (message.type === "analyze-search-content" && !busy) {
-      busy=true;
+    if (message.type === "analyze-search-content") {
       // Créer un DOMParser pour analyser le code HTML
       const parser = new DOMParser();
       var allCardText = "";
@@ -91,21 +79,20 @@ const SYSTEM_PROMPT = "You are a helpful and friendly assistant.";
 
       var searchCards = doc.querySelectorAll(searchEngine[selectedSearchEngine]["querySelectorAll"]);
       var cpt = 1;
-      var maxCards = 4;
       var newStory = "";
       for (const searchCard of searchCards) {
 
         var cleanText = searchCard.innerText;
-        var resultDetectLanguage = eld.detect(cleanText);
+        var resultDetectLanguage = 'ja';//eld.detect(cleanText);
 
-        if ("en" != resultDetectLanguage.language) {
+        if ("en" != 'ja') {
           var languagePair = {
-            sourceLanguage: resultDetectLanguage.language, // Or detect the source language with the Language Detection API
+            sourceLanguage: 'ja', // Or detect the source language with the Language Detection API
             targetLanguage: 'en',
           };
-          console.log("detected language : " + resultDetectLanguage.language);
+          console.log("detected language : " + 'ja');
           canTranslate = await translation.canTranslate(languagePair);
-          console.log(`can translate ${resultDetectLanguage.language}->en : ${canTranslate}`);
+          console.log(`can translate ${'ja'}->en : ${canTranslate}`);
           if (canTranslate !== 'no') {
             if (canTranslate === 'readily') {
               // The translator can immediately be used.
@@ -120,34 +107,21 @@ const SYSTEM_PROMPT = "You are a helpful and friendly assistant.";
             }
           } else {
           }
-          console.log(resultDetectLanguage.language + " : " + cleanText);
+          console.log('ja' + " : " + cleanText);
           cleanText = await translator.translate(cleanText);
           console.log("en : " + cleanText)
         }
         newStory += " | " + cleanText;
-        
-        if (cpt == maxCards) {
-          break;
-        }
-        cpt++;
       }
       allCardText += newStory;
-      console.log("before summarize card : " + allCardText);
-      cleanText = await writer.write(allCardText);
-      console.log("after summarize card : " + allCardText);
-      promptNotFound += newStory;
-      document.getElementById("promptSearch").innerHTML = promptNotFound;
-      document.getElementById('prompt-input').innerHTML = promptNotFound;
-      document.getElementById('modalContainer').style.display = "none";
-      document.getElementById('popupGemini').style.display = "block";
-      
-      document.getElementById('popupGeminiImage').classList.remove("popupGeminiButton_unselected");
-      document.getElementById('popupGeminiImage').classList.add("bumpingImage");
-      document.getElementById('submit-button').click();
-      busy=false;
+
 
     }
-
+    console.log("before summarize card : " + allCardText)
+    cleanText = await summarizer.summarize(allCardText);
+    console.log("after summarize card : " + allCardText)
+    promptNotFound += newStory;
+    textarea.innerHTML = promptNotFound;
   });
 
 
@@ -202,128 +176,119 @@ const SYSTEM_PROMPT = "You are a helpful and friendly assistant.";
   const selectedLanguage = localStorage.getItem('lang');
 
   responseArea.style.display = "none";
- // Crée une instance de MutationObserver pour surveiller les changements dans un élément DOM
-let geminiBlok = [];
-let speakBlok = [];
-let lastSpokenIndex = -1; // Indice du dernier bloc traité
-let lastBlockTimeout; // Timer pour gérer le dernier bloc ajouté
+  // Crée une instance de MutationObserver
+  let geminiBlok = [];
+  let speakBlok = [];
+  let lastSpokenIndex = -1; // Indice du dernier bloc parlé
+  let lastBlockTimeout; // Timer pour le dernier bloc
 
-// Configuration de l'observateur de mutations
-const observer = new MutationObserver((mutationsList) => {
-  mutationsList.forEach(mutation => {
-    if (mutation.type === "childList" || mutation.type === "characterData") {
-      console.log("Le contenu du div a changé !");
+  const observer = new MutationObserver((mutationsList) => {
+    mutationsList.forEach(mutation => {
+      if (mutation.type === "childList" || mutation.type === "characterData") {
+        console.log("Le contenu du div a changé !");
 
-      // Remplace les balises <br> par des espaces pour éviter qu'elles ne soient prononcées
-      const rawText = rawResponseNew.innerHTML.replace(/<br\s*\/?>/gi, " ");
-      console.log("Texte brut extrait :", rawText);
+        // Extrait uniquement le texte brut sans balises <br>
+        const rawText = rawResponseNew.innerHTML.replace(/<br\s*\/?>/gi, " "); // Remplace les <br> par un espace
+        console.log("Texte brut extrait :", rawText);
 
-      // Divise le contenu sur les caractères ".", "!", et ":" pour créer des blocs significatifs
-      const currentBlok = rawText
-        .split(/[\.\!\:]/) // Séparateurs principaux
-        .map(part => part.trim()) // Supprime les espaces inutiles
-        .filter(block => block.length > 0); // Exclut les blocs vides
+        // Divise le contenu sur ".", ",", et ":" uniquement
+        const currentBlok = rawText
+          .split(/[\.\!\:]/) // Divise sur les caractères ".", ",", ":"
+          .map(part => part.trim()) // Supprime les espaces autour
+          .filter(block => block.length > 0); // Supprime les blocs vides
 
-      // Si au moins deux blocs complets existent
-      if (currentBlok.length > 1) {
-        // Exclut le dernier bloc (potentiellement en cours de construction)
-        const blocksToSpeak = currentBlok.slice(lastSpokenIndex + 1, currentBlok.length - 1);
-        blocksToSpeak.forEach(block => speakBlok.push(block));
+        // Si au moins deux blocs complets existent
+        if (currentBlok.length > 1) {
+          // Traite les blocs prêts sauf le dernier en construction
+          const blocksToSpeak = currentBlok.slice(lastSpokenIndex + 1, currentBlok.length - 1);
+          blocksToSpeak.forEach(block => speakBlok.push(block));
 
-        // Si des blocs sont prêts, démarre la synthèse vocale
-        if (speakBlok.length > 0) {
-          speakBlok.forEach(block => speak(block)); // Traite chaque bloc
-          speakBlok = []; // Vide la file après traitement
-        }
-
-        // Met à jour l'indice du dernier bloc parlé
-        lastSpokenIndex = currentBlok.length - 2;
-
-        // Gère le dernier bloc en attente
-        if (lastBlockTimeout) {
-          clearTimeout(lastBlockTimeout); // Réinitialise le timer si un nouveau changement est détecté
-        }
-
-        // Lance un timer pour traiter le dernier bloc après un délai
-        lastBlockTimeout = setTimeout(() => {
-          const lastBlock = currentBlok[currentBlok.length - 1];
-          if (lastBlock && currentBlok.length > lastSpokenIndex + 1) {
-            speak(lastBlock); // Prononce le dernier bloc stable
-            lastSpokenIndex = currentBlok.length - 1;
-            console.log("Dernier bloc lu :", lastBlock);
+          // Démarre la synthèse vocale pour les blocs prêts
+          if (speakBlok.length > 0) {
+            speakBlok.forEach(block => speak(block));
+            speakBlok = []; // Vide la liste après traitement
           }
-        }, 500); // Assure une stabilité avant de parler
+
+          // Met à jour l'indice du dernier bloc parlé
+          lastSpokenIndex = currentBlok.length - 2;
+
+          // Vérifie le dernier bloc en construction
+          if (lastBlockTimeout) {
+            clearTimeout(lastBlockTimeout); // Réinitialise le timer si le div change
+          }
+
+          lastBlockTimeout = setTimeout(() => {
+            // Traite le dernier bloc si aucune mutation ne se produit pendant un délai
+            const lastBlock = currentBlok[currentBlok.length - 1];
+            if (lastBlock && currentBlok.length > lastSpokenIndex + 1) {
+              speak(lastBlock);
+              lastSpokenIndex = currentBlok.length - 1;
+              console.log("Dernier bloc lu :", lastBlock);
+            }
+          }, 500); // Attendre 500ms pour s'assurer que le dernier bloc est stable
+        }
+
+        // Met à jour l'état actuel
+        geminiBlok = currentBlok;
       }
-
-      // Met à jour la liste des blocs actuelle
-      geminiBlok = currentBlok;
-    }
+    });
   });
-});
 
-// Fonction pour traduire le texte dans la langue sélectionnée
-async function translate(text) {
-  try {
-    if ("en-US" !== selectedLanguage) {
-      const targetLanguage = selectedLanguage.substring(0, 2); // Extrait la langue cible
-      const languagePair = {
-        sourceLanguage: "en",
+
+
+  async function translate(text) {
+    if ("en-US" != selectedLanguage) {
+      var targetLanguage = selectedLanguage.substring(0, 2);
+      var languagePair = {
+        sourceLanguage: "en", // Or detect the source language with the Language Detection API
         targetLanguage: targetLanguage,
       };
-      const canTranslate = await translation.canTranslate(languagePair);
-
-      if (canTranslate === 'readily' || canTranslate === 'onDemand') {
-        const translator = await translation.createTranslator(languagePair);
-        if (canTranslate === 'onDemand') {
-          await translator.ready; // Attend le téléchargement si nécessaire
+      canTranslate = await translation.canTranslate(languagePair);
+      if (canTranslate !== 'no') {
+        if (canTranslate === 'readily') {
+          // The translator can immediately be used.
+          translator = await translation.createTranslator(languagePair);
+        } else {
+          // The translator can be used after the model download.
+          translator = await translation.createTranslator(languagePair);
+          translator.addEventListener('downloadprogress', (e) => {
+            console.log(e.loaded, e.total);
+          });
+          await translator.ready;
         }
-        text = await translator.translate(text);
-        console.log(targetLanguage + " : " + text);
       } else {
-        console.warn("Traduction indisponible pour cette combinaison de langues.");
       }
+      console.log("en : " + text);
+      text = await translator.translate(text);
+      console.log(targetLanguage + " : " + text);
+
     }
-  } catch (error) {
-    console.error("Erreur de traduction :", error);
+    return text;
   }
-  return text;
-}
+  // Fonction pour convertir le texte en parole
+  async function speak(text) {
+    text = await translate(text);
+    // Configuration de la synthèse vocale
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = selectedLanguage; // Langue : "fr-FR" pour français
+    utterance.rate = 1; // Vitesse : 1 est normal
+    utterance.pitch = 1; // Tonalité : 1 est normal
 
-// Fonction pour convertir le texte en parole avec Text-to-Speech
-async function speak(text) {
-  // Arrête la synthèse vocale en cours si nécessaire
-  if (window.speechSynthesis.speaking) {
-    console.log("Synthèse en cours, mise en pause...");
-    window.speechSynthesis.cancel();
-  }
+    // Parler le texte
+    window.speechSynthesis.speak(utterance);
 
-  // Traduit le texte si une langue cible est définie
-  text = await translate(text);
+    utterance.onend = () => console.log("Speech finished!");
+    utterance.onerror = (e) => console.error("Speech error:", e);
+  };
+  // Options pour observer les changements
+  const config = {
+    childList: true,       // Surveille les modifications des enfants (ajout/suppression)
+    characterData: true,   // Surveille les modifications du texte
+    subtree: true          // Surveille les descendants également
+  };
 
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = selectedLanguage; // Définit la langue sélectionnée
-  utterance.rate = 1; // Vitesse normale
-  utterance.pitch = 1; // Tonalité normale
-
-  utterance.onend = () => console.log("Synthèse terminée !");
-  utterance.onerror = (e) => console.error("Erreur de synthèse :", e);
-
-  window.speechSynthesis.speak(utterance); // Lance la synthèse vocale
-}
-
-// Options pour l'observation des mutations
-const config = {
-  childList: true,       // Surveille les ajouts/suppressions d'enfants
-  characterData: true,   // Surveille les modifications de texte
-  subtree: true          // Inclut les descendants
-};
-
-// Vérifie que l'élément cible existe avant d'attacher l'observateur
-if (rawResponseNew) {
-  observer.observe(rawResponseNew, config); // Démarre l'observation
-} else {
-  console.error("L'élément rawResponseNew est introuvable.");
-}
+  // Démarre l'observation
+  observer.observe(rawResponseNew, config);
 
 
   let session = null;
@@ -558,6 +523,52 @@ async function gtinNotFound(gtin) {
   document.getElementById("modalContainer").style.display = "block";
 }
 
+chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
+  if (message.type === "analyze-search-content") {
+    // Créer un DOMParser pour analyser le code HTML
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(message.content, "text/html");
+
+    var searchCards = doc.querySelectorAll(searchEngine[selectedSearchEngine]["querySelectorAll"]);
+    var cpt = 1;
+    var newStory = "";
+    for (const searchCard of searchCards) {
+
+      var cleanText = searchCard.innerText;
+      var resultDetectLanguage = eld.detect(cleanText);
+
+      if ("en" != resultDetectLanguage.language) {
+        var languagePair = {
+          sourceLanguage: resultDetectLanguage.language, // Or detect the source language with the Language Detection API
+          targetLanguage: 'en',
+        };
+        console.log("detected language : " + resultDetectLanguage.language);
+        canTranslate = await translation.canTranslate(languagePair);
+        console.log(`can translate ${resultDetectLanguage.language}->en : ${canTranslate}`);
+        if (canTranslate !== 'no') {
+          if (canTranslate === 'readily') {
+            // The translator can immediately be used.
+            translator = await translation.createTranslator(languagePair);
+          } else {
+            // The translator can be used after the model download.
+            translator = await translation.createTranslator(languagePair);
+            translator.addEventListener('downloadprogress', (e) => {
+              console.log(e.loaded, e.total);
+            });
+            await translator.ready;
+          }
+        } else {
+        }
+        console.log(resultDetectLanguage.language + " : " + cleanText);
+        cleanText = await translator.translate(cleanText);
+        console.log("en : " + cleanText)
+      }
+      newStory += " | " + cleanText;
+    }
+    textarea.innerHTML += newStory;
+
+  }
+});
 
 
 // Fonction pour traduire un texte
@@ -573,26 +584,3 @@ async function translateMessage(text) {
   }
   return text; // Pas de traduction si la langue est identique
 }
-var prompt_caratere_perso=`
-Prompt for Detecting Personal Data
-
-"Analyze the provided text and identify the presence of any personal data as recognized by global privacy regulations, including but not limited to:
-
-    Direct Identifiers: Names, addresses, phone numbers, email addresses, online identifiers (such as IP addresses or cookies), or any unique identifiers.
-
-    Sensitive Data: Information about health, race or ethnic origin, political opinions, religious or philosophical beliefs, sexual orientation, or any other data classified as sensitive.
-
-    Economic and Financial Data: Credit card numbers, bank account details, social security numbers (or equivalents), tax identifiers.
-
-    Biometric Data: Fingerprints, facial recognition data, voiceprints, DNA data.
-
-    Location Data: GPS coordinates or location history.
-
-    Other Data: Any other information that could directly or indirectly identify an individual.
-
-Return a structured report that includes:
-
-    The types of data detected.
-    The context in which the data appears.
-    An evaluation of its sensitivity based on international standards. text : "
-`

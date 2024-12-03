@@ -35,7 +35,6 @@ function getJSONFromOFF(gtin13) {
             jsonProductGlobal = GS1json;
             addHistory();
             loadProfils();
-            addHistory();
         } else {
             
             document.getElementById("notFound").setAttribute('data',gtin13 );

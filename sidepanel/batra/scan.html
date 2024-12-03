@@ -67,6 +67,10 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerbur">
                 <ul class="navbar-nav justify-content-center mt-lg-0">
                     <li class="nav-item">
+                        <a href="configPrompts.html" class="nav-link"><img class="promptMenu"
+                                src="img/logo/gemini_nano.webp"> Configuration des Prompts </a>
+                    </li>
+                    <li class="nav-item">
                         <a href="listProfils.html" class="nav-link">Mes profils</a>
                     </li>
                     <li class="nav-item">
@@ -86,7 +90,7 @@
                     <li class="nav-item">
                         <div id="languages">
                             Available languages : <br>
-                            <img class="languageFlag" src="/images/languages/zh-CNP.svg" id="zh-CNP" alt="Mandarin">
+                            <img class="languageFlag" src="/images/languages/zh-CNP.svg" id="zh-CN" alt="Mandarin">
                             <img class="languageFlag" src="/images/languages/es-ES.svg" id="es-ES" alt="Español">
                             <img class="languageFlag" src="/images/languages/en-US.svg" id="en-US" alt="English">
                             <img class="languageFlag" src="/images/languages/hi-IN.svg" id="hi-IN" alt="Hindi">
@@ -97,7 +101,8 @@
                             <img class="languageFlag" src="/images/languages/de-DE.svg" id="de-DE" alt="Deutsch">
                             <img class="languageFlag" src="/images/languages/it-IT.svg" id="it-IT" alt="Italiano">
                             <img class="languageFlag" src="/images/languages/ko-KR.svg" id="ko-KR" alt="한국의">
-                            <img class="languageFlag" src="/images/languages/nl-NL.svg" id="nl-NL" alt="Nederlands">
+                            <img class="languageFlag" src="/images/languages/nl-NL.svg" id="nl-NL" alt="Nederlands"><br>
+
 
                         </div>
                     </li>
@@ -132,7 +137,7 @@
                                 oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
                             <br>
                             <br>
-                            <button onclick="searchProduct();">
+                            <button class="title" onclick="searchProduct();">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search"
                                     width="24" height="24" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor"
                                     fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -241,7 +246,7 @@
     <div id="popupGeminiButton">
         <div style="position: relative">
             <img id="popupGeminiImage" class="popupGeminiButton_unselected" src="img/logo/gemini_nano.webp">
-            <img class="languageFlagTranslator" src="/images/languages/zh-CNP.svg" id="Translator_zh-CNP" alt="Mandarin">
+            <img class="languageFlagTranslator" src="/images/languages/zh-CNP.svg" id="Translator_zh-CN" alt="Mandarin">
             <img class="languageFlagTranslator" src="/images/languages/es-ES.svg" id="Translator_es-ES" alt="Español">
             <img class="languageFlagTranslator" src="/images/languages/en-US.svg" id="Translator_en-US" alt="English">
             <img class="languageFlagTranslator" src="/images/languages/hi-IN.svg" id="Translator_hi-IN" alt="Hindi">
@@ -252,10 +257,188 @@
             <img class="languageFlagTranslator" src="/images/languages/de-DE.svg" id="Translator_de-DE" alt="Deutsch">
             <img class="languageFlagTranslator" src="/images/languages/it-IT.svg" id="Translator_it-IT" alt="Italiano">
             <img class="languageFlagTranslator" src="/images/languages/ko-KR.svg" id="Translator_ko-KR" alt="한국의">
-            <img class="languageFlagTranslator" src="/images/languages/nl-NL.svg" id="Translator_nl-NL" alt="Nederlands">
+            <img class="languageFlagTranslator" src="/images/languages/nl-NL.svg" id="Translator_nl-NL"
+                alt="Nederlands">
         </div>
-        
-      </div>
+
+    </div>
+
+    <div id="Speech_synthesiser" style="display: none;">
+        <select id="selectedVoice">
+            <option data-lang="en-US" data-name="Albert">Albert (en-US)</option>
+            <option data-lang="it-IT" data-name="Alice">Alice (it-IT)</option>
+            <option data-lang="sv-SE" data-name="Alva">Alva (sv-SE)</option>
+            <option data-lang="ms-MY" data-name="Amira">Amira (ms-MY)</option>
+            <option data-lang="fr-CA" data-name="Amélie">Amélie (fr-CA)</option>
+            <option data-lang="de-DE" data-name="Anna">Anna (de-DE)</option>
+            <option data-lang="en-US" data-name="Bad News">Bad News (en-US)</option>
+            <option data-lang="en-US" data-name="Bahh">Bahh (en-US)</option>
+            <option data-lang="en-US" data-name="Bells">Bells (en-US)</option>
+            <option data-lang="en-US" data-name="Boing">Boing (en-US)</option>
+            <option data-lang="en-US" data-name="Bubbles">Bubbles (en-US)</option>
+            <option data-lang="he-IL" data-name="Carmit">Carmit (he-IL)</option>
+            <option data-lang="en-US" data-name="Cellos">Cellos (en-US)</option>
+            <option data-lang="id-ID" data-name="Damayanti">Damayanti (id-ID)</option>
+            <option data-lang="en-GB" data-name="Daniel">Daniel (en-GB) -- DEFAULT</option>
+            <option data-lang="bg-BG" data-name="Daria">Daria (bg-BG)</option>
+            <option data-lang="en-GB" data-name="Eddy (English (UK))">Eddy (English (UK)) (en-GB)</option>
+            <option data-lang="en-US" data-name="Eddy (English (US))">Eddy (English (US)) (en-US)</option>
+            <option data-lang="fi-FI" data-name="Eddy (Finnish (Finland))">Eddy (Finnish (Finland)) (fi-FI)</option>
+            <option data-lang="fr-CA" data-name="Eddy (French (Canada))">Eddy (French (Canada)) (fr-CA)</option>
+            <option data-lang="fr-FR" data-name="Eddy (French (France))">Eddy (French (France)) (fr-FR)</option>
+            <option data-lang="de-DE" data-name="Eddy (German (Germany))">Eddy (German (Germany)) (de-DE)</option>
+            <option data-lang="it-IT" data-name="Eddy (Italian (Italy))">Eddy (Italian (Italy)) (it-IT)</option>
+            <option data-lang="pt-BR" data-name="Eddy (Portuguese (Brazil))">Eddy (Portuguese (Brazil)) (pt-BR)</option>
+            <option data-lang="es-MX" data-name="Eddy (Spanish (Mexico))">Eddy (Spanish (Mexico)) (es-MX)</option>
+            <option data-lang="es-ES" data-name="Eddy (Spanish (Spain))">Eddy (Spanish (Spain)) (es-ES)</option>
+            <option data-lang="nl-BE" data-name="Ellen">Ellen (nl-BE)</option>
+            <option data-lang="en-GB" data-name="Flo (English (UK))">Flo (English (UK)) (en-GB)</option>
+            <option data-lang="en-US" data-name="Flo (English (US))">Flo (English (US)) (en-US)</option>
+            <option data-lang="fi-FI" data-name="Flo (Finnish (Finland))">Flo (Finnish (Finland)) (fi-FI)</option>
+            <option data-lang="fr-CA" data-name="Flo (French (Canada))">Flo (French (Canada)) (fr-CA)</option>
+            <option data-lang="fr-FR" data-name="Flo (French (France))">Flo (French (France)) (fr-FR)</option>
+            <option data-lang="de-DE" data-name="Flo (German (Germany))">Flo (German (Germany)) (de-DE)</option>
+            <option data-lang="it-IT" data-name="Flo (Italian (Italy))">Flo (Italian (Italy)) (it-IT)</option>
+            <option data-lang="pt-BR" data-name="Flo (Portuguese (Brazil))">Flo (Portuguese (Brazil)) (pt-BR)</option>
+            <option data-lang="es-MX" data-name="Flo (Spanish (Mexico))">Flo (Spanish (Mexico)) (es-MX)</option>
+            <option data-lang="es-ES" data-name="Flo (Spanish (Spain))">Flo (Spanish (Spain)) (es-ES)</option>
+            <option data-lang="en-US" data-name="Fred">Fred (en-US)</option>
+            <option data-lang="en-US" data-name="Good News">Good News (en-US)</option>
+            <option data-lang="en-GB" data-name="Grandma (English (UK))">Grandma (English (UK)) (en-GB)</option>
+            <option data-lang="en-US" data-name="Grandma (English (US))">Grandma (English (US)) (en-US)</option>
+            <option data-lang="fi-FI" data-name="Grandma (Finnish (Finland))">Grandma (Finnish (Finland)) (fi-FI)
+            </option>
+            <option data-lang="fr-CA" data-name="Grandma (French (Canada))">Grandma (French (Canada)) (fr-CA)</option>
+            <option data-lang="fr-FR" data-name="Grandma (French (France))">Grandma (French (France)) (fr-FR)</option>
+            <option data-lang="de-DE" data-name="Grandma (German (Germany))">Grandma (German (Germany)) (de-DE)</option>
+            <option data-lang="it-IT" data-name="Grandma (Italian (Italy))">Grandma (Italian (Italy)) (it-IT)</option>
+            <option data-lang="pt-BR" data-name="Grandma (Portuguese (Brazil))">Grandma (Portuguese (Brazil)) (pt-BR)
+            </option>
+            <option data-lang="es-MX" data-name="Grandma (Spanish (Mexico))">Grandma (Spanish (Mexico)) (es-MX)</option>
+            <option data-lang="es-ES" data-name="Grandma (Spanish (Spain))">Grandma (Spanish (Spain)) (es-ES)</option>
+            <option data-lang="en-GB" data-name="Grandpa (English (UK))">Grandpa (English (UK)) (en-GB)</option>
+            <option data-lang="en-US" data-name="Grandpa (English (US))">Grandpa (English (US)) (en-US)</option>
+            <option data-lang="fi-FI" data-name="Grandpa (Finnish (Finland))">Grandpa (Finnish (Finland)) (fi-FI)
+            </option>
+            <option data-lang="fr-CA" data-name="Grandpa (French (Canada))">Grandpa (French (Canada)) (fr-CA)</option>
+            <option data-lang="fr-FR" data-name="Grandpa (French (France))">Grandpa (French (France)) (fr-FR)</option>
+            <option data-lang="de-DE" data-name="Grandpa (German (Germany))">Grandpa (German (Germany)) (de-DE)</option>
+            <option data-lang="it-IT" data-name="Grandpa (Italian (Italy))">Grandpa (Italian (Italy)) (it-IT)</option>
+            <option data-lang="pt-BR" data-name="Grandpa (Portuguese (Brazil))">Grandpa (Portuguese (Brazil)) (pt-BR)
+            </option>
+            <option data-lang="es-MX" data-name="Grandpa (Spanish (Mexico))">Grandpa (Spanish (Mexico)) (es-MX)</option>
+            <option data-lang="es-ES" data-name="Grandpa (Spanish (Spain))">Grandpa (Spanish (Spain)) (es-ES)</option>
+            <option data-lang="ro-RO" data-name="Ioana">Ioana (ro-RO)</option>
+            <option data-lang="fr-FR" data-name="Jacques">Jacques (fr-FR)</option>
+            <option data-lang="en-US" data-name="Jester">Jester (en-US)</option>
+            <option data-lang="pt-PT" data-name="Joana">Joana (pt-PT)</option>
+            <option data-lang="en-US" data-name="Junior">Junior (en-US)</option>
+            <option data-lang="th-TH" data-name="Kanya">Kanya (th-TH)</option>
+            <option data-lang="en-AU" data-name="Karen">Karen (en-AU)</option>
+            <option data-lang="en-US" data-name="Kathy">Kathy (en-US)</option>
+            <option data-lang="ja-JP" data-name="Kyoko">Kyoko (ja-JP)</option>
+            <option data-lang="hr-HR" data-name="Lana">Lana (hr-HR)</option>
+            <option data-lang="sk-SK" data-name="Laura">Laura (sk-SK)</option>
+            <option data-lang="hi-IN" data-name="Lekha">Lekha (hi-IN)</option>
+            <option data-lang="uk-UA" data-name="Lesya">Lesya (uk-UA)</option>
+            <option data-lang="vi-VN" data-name="Linh">Linh (vi-VN)</option>
+            <option data-lang="pt-BR" data-name="Luciana">Luciana (pt-BR)</option>
+            <option data-lang="ar-001" data-name="Majed">Majed (ar-001)</option>
+            <option data-lang="zh-TW" data-name="Meijia">Meijia (zh-TW)</option>
+            <option data-lang="el-GR" data-name="Melina">Melina (el-GR)</option>
+            <option data-lang="ru-RU" data-name="Milena">Milena (ru-RU)</option>
+            <option data-lang="en-IE" data-name="Moira">Moira (en-IE)</option>
+            <option data-lang="ca-ES" data-name="Montse">Montse (ca-ES)</option>
+            <option data-lang="es-ES" data-name="Mónica">Mónica (es-ES)</option>
+            <option data-lang="nb-NO" data-name="Nora">Nora (nb-NO)</option>
+            <option data-lang="en-US" data-name="Organ">Organ (en-US)</option>
+            <option data-lang="es-MX" data-name="Paulina">Paulina (es-MX)</option>
+            <option data-lang="en-US" data-name="Ralph">Ralph (en-US)</option>
+            <option data-lang="en-GB" data-name="Reed (English (UK))">Reed (English (UK)) (en-GB)</option>
+            <option data-lang="en-US" data-name="Reed (English (US))">Reed (English (US)) (en-US)</option>
+            <option data-lang="fi-FI" data-name="Reed (Finnish (Finland))">Reed (Finnish (Finland)) (fi-FI)</option>
+            <option data-lang="fr-CA" data-name="Reed (French (Canada))">Reed (French (Canada)) (fr-CA)</option>
+            <option data-lang="de-DE" data-name="Reed (German (Germany))">Reed (German (Germany)) (de-DE)</option>
+            <option data-lang="it-IT" data-name="Reed (Italian (Italy))">Reed (Italian (Italy)) (it-IT)</option>
+            <option data-lang="pt-BR" data-name="Reed (Portuguese (Brazil))">Reed (Portuguese (Brazil)) (pt-BR)</option>
+            <option data-lang="es-MX" data-name="Reed (Spanish (Mexico))">Reed (Spanish (Mexico)) (es-MX)</option>
+            <option data-lang="es-ES" data-name="Reed (Spanish (Spain))">Reed (Spanish (Spain)) (es-ES)</option>
+            <option data-lang="en-IN" data-name="Rishi">Rishi (en-IN)</option>
+            <option data-lang="en-GB" data-name="Rocko (English (UK))">Rocko (English (UK)) (en-GB)</option>
+            <option data-lang="en-US" data-name="Rocko (English (US))">Rocko (English (US)) (en-US)</option>
+            <option data-lang="fi-FI" data-name="Rocko (Finnish (Finland))">Rocko (Finnish (Finland)) (fi-FI)</option>
+            <option data-lang="fr-CA" data-name="Rocko (French (Canada))">Rocko (French (Canada)) (fr-CA)</option>
+            <option data-lang="fr-FR" data-name="Rocko (French (France))">Rocko (French (France)) (fr-FR)</option>
+            <option data-lang="de-DE" data-name="Rocko (German (Germany))">Rocko (German (Germany)) (de-DE)</option>
+            <option data-lang="it-IT" data-name="Rocko (Italian (Italy))">Rocko (Italian (Italy)) (it-IT)</option>
+            <option data-lang="pt-BR" data-name="Rocko (Portuguese (Brazil))">Rocko (Portuguese (Brazil)) (pt-BR)
+            </option>
+            <option data-lang="es-MX" data-name="Rocko (Spanish (Mexico))">Rocko (Spanish (Mexico)) (es-MX)</option>
+            <option data-lang="es-ES" data-name="Rocko (Spanish (Spain))">Rocko (Spanish (Spain)) (es-ES)</option>
+            <option data-lang="en-US" data-name="Samantha">Samantha (en-US)</option>
+            <option data-lang="en-GB" data-name="Sandy (English (UK))">Sandy (English (UK)) (en-GB)</option>
+            <option data-lang="en-US" data-name="Sandy (English (US))">Sandy (English (US)) (en-US)</option>
+            <option data-lang="fi-FI" data-name="Sandy (Finnish (Finland))">Sandy (Finnish (Finland)) (fi-FI)</option>
+            <option data-lang="fr-CA" data-name="Sandy (French (Canada))">Sandy (French (Canada)) (fr-CA)</option>
+            <option data-lang="fr-FR" data-name="Sandy (French (France))">Sandy (French (France)) (fr-FR)</option>
+            <option data-lang="de-DE" data-name="Sandy (German (Germany))">Sandy (German (Germany)) (de-DE)</option>
+            <option data-lang="it-IT" data-name="Sandy (Italian (Italy))">Sandy (Italian (Italy)) (it-IT)</option>
+            <option data-lang="pt-BR" data-name="Sandy (Portuguese (Brazil))">Sandy (Portuguese (Brazil)) (pt-BR)
+            </option>
+            <option data-lang="es-MX" data-name="Sandy (Spanish (Mexico))">Sandy (Spanish (Mexico)) (es-MX)</option>
+            <option data-lang="es-ES" data-name="Sandy (Spanish (Spain))">Sandy (Spanish (Spain)) (es-ES)</option>
+            <option data-lang="da-DK" data-name="Sara">Sara (da-DK)</option>
+            <option data-lang="fi-FI" data-name="Satu">Satu (fi-FI)</option>
+            <option data-lang="en-GB" data-name="Shelley (English (UK))">Shelley (English (UK)) (en-GB)</option>
+            <option data-lang="en-US" data-name="Shelley (English (US))">Shelley (English (US)) (en-US)</option>
+            <option data-lang="fi-FI" data-name="Shelley (Finnish (Finland))">Shelley (Finnish (Finland)) (fi-FI)
+            </option>
+            <option data-lang="fr-CA" data-name="Shelley (French (Canada))">Shelley (French (Canada)) (fr-CA)</option>
+            <option data-lang="fr-FR" data-name="Shelley (French (France))">Shelley (French (France)) (fr-FR)</option>
+            <option data-lang="de-DE" data-name="Shelley (German (Germany))">Shelley (German (Germany)) (de-DE)</option>
+            <option data-lang="it-IT" data-name="Shelley (Italian (Italy))">Shelley (Italian (Italy)) (it-IT)</option>
+            <option data-lang="pt-BR" data-name="Shelley (Portuguese (Brazil))">Shelley (Portuguese (Brazil)) (pt-BR)
+            </option>
+            <option data-lang="es-MX" data-name="Shelley (Spanish (Mexico))">Shelley (Spanish (Mexico)) (es-MX)</option>
+            <option data-lang="es-ES" data-name="Shelley (Spanish (Spain))">Shelley (Spanish (Spain)) (es-ES)</option>
+            <option data-lang="zh-HK" data-name="Sinji">Sinji (zh-HK)</option>
+            <option data-lang="en-US" data-name="Superstar">Superstar (en-US)</option>
+            <option data-lang="en-ZA" data-name="Tessa">Tessa (en-ZA)</option>
+            <option data-lang="fr-FR" data-name="Thomas">Thomas (fr-FR)</option>
+            <option data-lang="zh-CN" data-name="Tingting">Tingting (zh-CN)</option>
+            <option data-lang="en-US" data-name="Trinoids">Trinoids (en-US)</option>
+            <option data-lang="hu-HU" data-name="Tünde">Tünde (hu-HU)</option>
+            <option data-lang="en-US" data-name="Whisper">Whisper (en-US)</option>
+            <option data-lang="en-US" data-name="Wobble">Wobble (en-US)</option>
+            <option data-lang="nl-NL" data-name="Xander">Xander (nl-NL)</option>
+            <option data-lang="tr-TR" data-name="Yelda">Yelda (tr-TR)</option>
+            <option data-lang="ko-KR" data-name="Yuna">Yuna (ko-KR)</option>
+            <option data-lang="en-US" data-name="Zarvox">Zarvox (en-US)</option>
+            <option data-lang="pl-PL" data-name="Zosia">Zosia (pl-PL)</option>
+            <option data-lang="cs-CZ" data-name="Zuzana">Zuzana (cs-CZ)</option>
+        </select>
+
+        <label for="txt"></label>
+        <input id="txt" type="text" class="txt">
+        <div>
+            <label for="rate"></label><input type="range" min="0.5" max="2" value="1" step="0.1" id="rate">
+            <div class="rate-value">1</div>
+            <div class="clearfix"></div>
+        </div>
+        <div>
+            <label for="pitch"></label><input type="range" min="0" max="2" value="1" step="0.1" id="pitch">
+            <div class="pitch-value">1</div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="controls">
+            <button id="play" type="submit"></button>
+        </div>
+    </div>
+
+
+
+
+
 </body>
 <script src="./scan_files/jquery-1.11.0.min.js"></script>
 <script src="./scan_files/adapter-latest.js" type="text/javascript"></script>
@@ -263,6 +446,8 @@
 <script src="./scan_files/quagga_scan.js" type="text/javascript"></script>
 
 <script src="js/language.js"></script>
+<script src="js/scan.js"></script>
+<script src="js/voice.js"></script>
 
 <script src="./scan_files/scale.fix.js"></script>
 

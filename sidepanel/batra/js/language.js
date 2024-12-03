@@ -107,9 +107,10 @@ async function translateDocument() {
 
     await batchTranslateTextNodes(textNodes); // Traduit et met à jour les nœuds de texte
 };
-setupTranslator();
+
 setTimeout(() => {
     if(selectedLanguage !== "fr-FR"){
+        setupTranslator();
         translateDocument();
     }
 }, 200);

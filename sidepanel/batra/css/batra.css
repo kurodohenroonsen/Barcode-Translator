@@ -1626,3 +1626,29 @@ input:checked+.slider:before {
 .bumpingImage {
     animation: bumping 1s infinite ease-in-out; /* Durée de 1 seconde, effet fluide */
 }
+.promptMenu{
+    width: 35px;
+    border-radius: 100px;
+
+}
+.promptConfig{
+    width: 95%;
+    border-radius: 16px;
+}
+.profilsListPromptConfig{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 16px;
+}
+.profilsImgPromptConfig{
+    width: 40px;
+    background-size: 100%;
+    background: url('../img/avatars/avatar6_back.svg') no-repeat;
+}
+.avatarPrompt{
+    height: 100px;
+
+}
+#selectedVoice{
+    display: none;
+}

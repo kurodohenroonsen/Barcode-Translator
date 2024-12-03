@@ -1,8 +1,8 @@
 {
-  "name": "BaTra powered by Gemini Nano",
+  "name": "Barcode Translator powered by Gemini Nano",
   "version": "0.1",
   "manifest_version": 3,
-  "description": "BaTra is your health assistant is get and publish product description generated locally with the help of Gemini Nano",
+  "description": "Barcode Translator is your health assistant is get and publish product description generated locally with the help of Gemini Nano",
   "background": {
     "service_worker": "background.js"
   },

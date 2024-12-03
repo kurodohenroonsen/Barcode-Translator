@@ -36,18 +36,7 @@ loadProfil(findGetParameter("profilId"));
 
 
 function filterlabels() {
-    var filterText = document.getElementById("labelFilter").value.toLowerCase();
-    var images = document.getElementsByClassName("imagelabel");
-    for (var i = 0; i < images.length; i++) {
-        var title = images[i].getAttribute("title").toLowerCase();
-        if (title.indexOf(filterText) > -1) {
-            images[i].style.display = "block";
-
-        } else {
-
-            images[i].style.display = "none";
-        }
-    }
+    
 }
 
 function saveValue() {
@@ -99,8 +88,22 @@ function showDetails(markElem) {
         markElem.parentElement.children[0].style.display = "none";
     }
 }
+var labelFilter = document.getElementById("labelFilter");
 
+labelFilter.addEventListener("keyup", async (event) => {
+    var filterText = document.getElementById("labelFilter").value.toLowerCase();
+    var images = document.getElementsByClassName("imagelabel");
+    for (var i = 0; i < images.length; i++) {
+        var title = images[i].getAttribute("title").toLowerCase();
+        if (title.indexOf(filterText) > -1) {
+            images[i].style.display = "block";
 
+        } else {
+
+            images[i].style.display = "none";
+        }
+    }
+});
 $("a[href='#top']").click(function () {
     $("html, body").animate({ scrollTop: 0 }, "slow");
     return false;

@@ -1,3 +1,5 @@
+var pageTTS = `Rechercher un produit grâce à son identifiant unique (8 ou 13 caractères) se trouvant sous le code barre, scan le code ou introduit le nombre.
+`
 function findGetParameter(parameterName) {
     var result = null,
         tmp = [];
@@ -12,5 +14,9 @@ function findGetParameter(parameterName) {
 }
 
 
-
 var bacodeScanned = [];
+
+
+
+
+

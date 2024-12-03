@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BatraLink - Configuration des prompts</title>
+    <link rel="stylesheet" href="css/batra.css">
+    <link rel="stylesheet" href="css/batralink.css">
+    <!-- JQUERY -->
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- INDEX DB -->
+    <script src="js/localbase.dev.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand"><img src="img/logo/logoBatra.png" style="width:40px" /></a>
+            <div class="dropdown order-lg-last menu_scan_container">
+                <a href="scan.html"><img class="menu_scan_img" src="img/scan.svg"></a>
+
+            </div>
+            <button class="navbar-toggler justify-content-center" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerbur" aria-controls="navbarTogglerbur" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerbur">
+                <ul class="navbar-nav justify-content-center mt-lg-0">
+                    <li class="nav-item">
+                        <a href="configPrompts.html" class="nav-link"><img class="promptMenu"
+                                src="img/logo/gemini_nano.webp"> Configuration des Prompts </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="listProfils.html" class="nav-link">Mes profils</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="history.html" class="nav-link">Mes Historiques</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="favory.html" class="nav-link">Mes Favoris</a>
+                    </li>
+                    <!--
+          <li class="nav-item">
+            <a href="recette.html" class="nav-link">Mes Recettes</a>
+          </li>
+          -->
+                    <li class="nav-item">
+                        <a href="apropos.html" class="nav-link">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <div id="languages">
+                            Available languages : <br>
+                            <img class="languageFlag" src="/images/languages/zh-CNP.svg" id="zh-CNP" alt="Mandarin">
+                            <img class="languageFlag" src="/images/languages/es-ES.svg" id="es-ES" alt="Español">
+                            <img class="languageFlag" src="/images/languages/en-US.svg" id="en-US" alt="English">
+                            <img class="languageFlag" src="/images/languages/hi-IN.svg" id="hi-IN" alt="Hindi">
+                            <img class="languageFlag" src="/images/languages/pt-BR.svg" id="pt-BR" alt="Português">
+                            <img class="languageFlag" src="/images/languages/ru-RU.svg" id="ru-RU" alt="Русский">
+                            <img class="languageFlag" src="/images/languages/ja-JP.svg" id="ja-JP" alt="日本語">
+                            <img class="languageFlag" src="/images/languages/fr-FR.svg" id="fr-FR" alt="Français">
+                            <img class="languageFlag" src="/images/languages/de-DE.svg" id="de-DE" alt="Deutsch">
+                            <img class="languageFlag" src="/images/languages/it-IT.svg" id="it-IT" alt="Italiano">
+                            <img class="languageFlag" src="/images/languages/ko-KR.svg" id="ko-KR" alt="한국의">
+                            <img class="languageFlag" src="/images/languages/nl-NL.svg" id="nl-NL" alt="Nederlands">
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="content" class="content ceontent_apropos" style="margin-top: 36px;">
+        <div class="title container" style=" grid-column: 1 / span 3 !important;">
+            <h1 style="font-style: normal;">Configuration des Prompts</h1>
+        </div>
+        <div class="container container_3" style="max-width: 600px;
+        margin: auto;">
+            <br>
+            Personnalisez votre expérience en définissant des instructions spécifiques pour l’analyse des informations
+            produits.
+            <br>
+            <br>
+            En définissant ces invites, vous garantissez que l’application vous fournit des informations pertinentes et
+            adaptées à vos attentes, pour une expérience enrichie et sur mesure.
+            <br>
+            <br>
+            Commencez dès maintenant et personnalisez votre utilisation !
+            <br>
+            <br>
+            Chaque profil peut configurer deux types d’invites distinctes :
+        </div>
+        <div class="container container_3 apropos_1">
+            <br>
+            <h3> Choisissez un des profiles enregistrés </h3>
+            <br>
+            <div id="profilsList" class="profilsListPromptConfig"></div>
+            <div class="apropos_overlay">
+                <h2 class="header_overlay">&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;</h2>
+            </div>
+
+
+        </div>
+        <div class="container container_3 apropos_2">
+            <br>
+            <h3>Prompt pour les produits alimentaires</h3>
+            <textarea id="promptFood" class="promptConfig" placeholder="promptFood_default"></textarea>
+            Rédigez une instruction personnalisée pour guider l’application dans l’analyse ou la génération
+            d’informations liées aux produits alimentaires. Que vous souhaitiez un détail sur les valeurs
+            nutritionnelles, des suggestions de recettes ou une vérification de conformité à vos préférences
+            alimentaires, c’est ici que vous définissez vos besoins.
+            <div class="apropos_overlay">
+                <h2 class="header_overlay">&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;</h2>
+            </div>
+
+
+        </div>
+        <div class="container container_3 apropos_3">
+            <br>
+            <h3>Prompt pour les autres types de produits</h3>
+            <textarea id="promptOther" class="promptConfig" placeholder="promptOther_default"></textarea>
+            Configurez une instruction distincte pour les produits non alimentaires, comme les cosmétiques, les
+            fournitures pour animaux ou les biens ménagers. Mettez l’accent sur des aspects clés comme la sécurité, les
+            conseils d’utilisation ou la durabilité.
+
+            <div class="apropos_overlay">
+                <h2 class="header_overlay">&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;</h2>
+            </div>
+
+        </div>
+        <div class=" container_3" style="width: 95%;
+        margin: auto;">
+            <button id="saveBtn" disabled class="title popupGeminiButton_unselected" value="default">Enregistrer</button>
+        </div>
+        
+     
+    </div>
+    <br>
+
+    <a href='#top'>
+        <svg id="button_goTop" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+            height="40" viewBox="0 0 19.782 19.782">
+            <defs>
+                <filter id="Tracé_28" x="0" y="0" width="19.782" height="19.782" filterUnits="userSpaceOnUse">
+                    <feOffset dy="1" input="SourceAlpha" />
+                    <feGaussianBlur stdDeviation="0.5" result="blur" />
+                    <feFlood flood-color="#4c1d12" />
+                    <feComposite operator="in" in2="blur" />
+                    <feComposite in="SourceGraphic" />
+                </filter>
+            </defs>
+            <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_28)">
+                <path id="Tracé_28-2" data-name="Tracé 28"
+                    d="M124.347,51.214V45.651s.081-3.343,3.1-3.442,5.516,0,5.516,0"
+                    transform="translate(-114.12 66.87) rotate(-45)" fill="none" stroke="#8c4d20" stroke-linecap="round"
+                    stroke-linejoin="bevel" stroke-width="3" />
+            </g>
+        </svg>
+    </a>
+    <div id="popupGeminiButton">
+        <div style="position: relative">
+            <img id="popupGeminiImage" class="popupGeminiButton_unselected" src="img/logo/gemini_nano.webp">
+            <img class="languageFlagTranslator" src="/images/languages/zh-CNP.svg" id="Translator_zh-CNP"
+                alt="Mandarin">
+            <img class="languageFlagTranslator" src="/images/languages/es-ES.svg" id="Translator_es-ES" alt="Español">
+            <img class="languageFlagTranslator" src="/images/languages/en-US.svg" id="Translator_en-US" alt="English">
+            <img class="languageFlagTranslator" src="/images/languages/hi-IN.svg" id="Translator_hi-IN" alt="Hindi">
+            <img class="languageFlagTranslator" src="/images/languages/pt-BR.svg" id="Translator_pt-BR" alt="Português">
+            <img class="languageFlagTranslator" src="/images/languages/ru-RU.svg" id="Translator_ru-RU" alt="Русский">
+            <img class="languageFlagTranslator" src="/images/languages/ja-JP.svg" id="Translator_ja-JP" alt="日本語">
+            <img class="languageFlagTranslator" src="/images/languages/fr-FR.svg" id="Translator_fr-FR" alt="Français">
+            <img class="languageFlagTranslator" src="/images/languages/de-DE.svg" id="Translator_de-DE" alt="Deutsch">
+            <img class="languageFlagTranslator" src="/images/languages/it-IT.svg" id="Translator_it-IT" alt="Italiano">
+            <img class="languageFlagTranslator" src="/images/languages/ko-KR.svg" id="Translator_ko-KR" alt="한국의">
+            <img class="languageFlagTranslator" src="/images/languages/nl-NL.svg" id="Translator_nl-NL"
+                alt="Nederlands">
+        </div>
+
+    </div>
+    <br><br><br>
+    <div id="footer">
+        <a href="https://www.batra.be" target="_BLANK"><img src="img/footerbatra.svg"></a>
+        <a href="https://www.aktina.be" target="_BLANK"><img src="img/Logo-AKTINA-coul.png"></a> <a
+          href="https://www.aviq.be/fr" target="_BLANK"><img src="img/Aviq.png"></a>
+    
+      </div>
+    <script src="js/language.js"></script>
+    <script src="js/configPrompts.js"></script>
+    <div id="popupGeminiButton">
+        <img id="popupGeminiImage" class="popupGeminiButton_unselected" src="img/logo/gemini_nano.webp">
+
+    </div>
+</body>
+
+</html>
