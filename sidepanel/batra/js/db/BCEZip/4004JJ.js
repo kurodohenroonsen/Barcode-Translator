@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Tiel","Denomination_FR":null,"HouseNumber":"4","website":null,"NaceCode_desc":"Exploitation de laiteries et fabrication de fromage","MunicipalityFR":"Tiel","StreetFR":"Zuiderhavenweg","NaceCode":"10510","phone":null,"Zipcode":"4004JJ","StreetNL":"Zuiderhavenweg","EntityNumber":"0732.727.310","Denomination_NL":null,"email":null,"Denomination_DE":"EMMI BENELUX B.V."},
+]

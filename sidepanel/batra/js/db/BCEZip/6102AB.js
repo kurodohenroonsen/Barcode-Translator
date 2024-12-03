@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"ECHT","Denomination_FR":null,"HouseNumber":"12","website":null,"NaceCode_desc":"Fabrication artisanale de pain et de pâtisserie fraîche","MunicipalityFR":"ECHT","StreetFR":"Rijksweg Zuid","NaceCode":"10712","phone":null,"Zipcode":"6102AB","StreetNL":"Rijksweg Zuid","EntityNumber":"0897.623.350","Denomination_NL":null,"email":null,"Denomination_DE":"Echte Bakker Clout bv"},
+]

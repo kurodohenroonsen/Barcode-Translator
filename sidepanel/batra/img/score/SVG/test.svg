@@ -1,0 +1,20 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595.28 841.89"><defs><style>.cls-1{fill:#063;stroke:#1d1d1b;stroke-miterlimit:10;}.cls-2{font-size:22px;fill:#ededed;font-family:MyriadPro-Regular, Myriad Pro;}.cls-3{letter-spacing:-0.07em;}</style></defs><rect class="cls-1" x="140" y="207" width="257" height="161"/>
+
+
+<switch>
+    <g systemLanguage="fr">
+       <text class="cls-2" transform="translate(194.93 295.31)"><tspan class="cls-3">T</tspan><tspan x="9.37" y="0">est multilingue</tspan></text>
+    </g>
+    <g systemLanguage="en">
+       <text class="cls-2" transform="translate(194.93 295.31)"><tspan class="cls-3">T</tspan><tspan x="9.37" y="0">est multilanguage</tspan></text>
+    </g>
+    <g systemLanguage="es">
+       <text class="cls-2" transform="translate(194.93 295.31)"><tspan class="cls-3">T</tspan><tspan x="9.37" y="0">est espagnole</tspan></text>
+    </g>
+</switch>  
+
+
+
+
+
+</svg>

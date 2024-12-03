@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BatraLink - Profil - Alertes sur base des valeurs nutritionnelles</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/batra.css">
+    <link rel="stylesheet" href="css/batralink.css">
+    
+    <!-- INDEX DB -->
+    <script src="js/localbase.dev.js"></script>
+    <!-- JQUERY -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand"><img src="img/logo/logoBatra.png" style="width:40px" /></a>
+            <div class="dropdown order-lg-last menu_scan_container">
+                <a href="scan.html"><img class="menu_scan_img" src="img/scan.svg"></a>
+
+            </div>
+            <button class="navbar-toggler justify-content-center" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerbur" aria-controls="navbarTogglerbur" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerbur">
+                <ul class="navbar-nav justify-content-center mt-lg-0">
+                    <li class="nav-item">
+                        <a href="listProfils.html" class="nav-link">Mes profils</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="history.html" class="nav-link">Mes Historiques</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="favory.html" class="nav-link">Mes Favoris</a>
+                    </li>
+          <!--
+          <li class="nav-item">
+            <a href="recette.html" class="nav-link">Mes Recettes</a>
+          </li>
+          -->
+          <li class="nav-item">
+            <a href="apropos.html" class="nav-link">A propos</a>
+          </li>
+          <li class="nav-item">
+            <div id="languages">
+              Available languages : <br>
+              <img class="languageFlag" src="/images/languages/zh-CNP.svg" id="zh-CNP" alt="Mandarin">
+              <img class="languageFlag" src="/images/languages/es-ES.svg" id="es-ES" alt="Español">
+              <img class="languageFlag" src="/images/languages/en-US.svg" id="en-US" alt="English">
+              <img class="languageFlag" src="/images/languages/hi-IN.svg" id="hi-IN" alt="Hindi">
+              <img class="languageFlag" src="/images/languages/pt-BR.svg" id="pt-BR" alt="Português">
+              <img class="languageFlag" src="/images/languages/ru-RU.svg" id="ru-RU" alt="Русский">
+              <img class="languageFlag" src="/images/languages/ja-JP.svg" id="ja-JP" alt="日本語">
+              <img class="languageFlag" src="/images/languages/fr-FR.svg" id="fr-FR" alt="Français">
+              <img class="languageFlag" src="/images/languages/de-DE.svg" id="de-DE" alt="Deutsch">
+              <img class="languageFlag" src="/images/languages/it-IT.svg" id="it-IT" alt="Italiano">
+              <img class="languageFlag" src="/images/languages/ko-KR.svg" id="ko-KR" alt="한국의">
+              <img class="languageFlag" src="/images/languages/nl-NL.svg" id="nl-NL" alt="Nederlands">
+
+            </div>
+          </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <a href="detailProfil.html">
+            <svg id="button_back" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="40" height="40" viewBox="0 0 19.782 19.782">
+                <defs>
+                    <filter id="Tracé_28" x="0" y="0" width="19.782" height="19.782" filterUnits="userSpaceOnUse">
+                        <feOffset dy="1" input="SourceAlpha" />
+                        <feGaussianBlur stdDeviation="0.5" result="blur" />
+                        <feFlood flood-color="#4c1d12" />
+                        <feComposite operator="in" in2="blur" />
+                        <feComposite in="SourceGraphic" />
+                    </filter>
+                </defs>
+                <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_28)">
+                    <path id="Tracé_28-2" data-name="Tracé 28"
+                        d="M124.347,51.214V45.651s.081-3.343,3.1-3.442,5.516,0,5.516,0"
+                        transform="translate(-114.12 66.87) rotate(-45)" fill="none" stroke="#8c4d20"
+                        stroke-linecap="round" stroke-linejoin="bevel" stroke-width="3" />
+                </g>
+            </svg>
+        </a>
+    </header>
+
+    <div id="content" class="content container_4" style="margin-top: 36px;">
+        <div class="title container ">
+            <h1 style="font-style: normal;">Alerte(s) sur base
+                des valeurs nutritionnelles</h1>
+            <div class="profil_overlay">
+                <svg id="Groupe_17316" data-name="Groupe 17316" xmlns="http://www.w3.org/2000/svg" width="74.742"
+                    height="102.613" viewBox="0 0 74.742 102.613">
+                    <path id="Tracé_9170" data-name="Tracé 9170"
+                        d="M367.832,111.251a26.994,26.994,0,0,0,.625-18.831c-.368-1.083-1.039-2.319-2.182-2.366a2.048,2.048,0,0,0-1.834,1.346,5.692,5.692,0,0,0-.284,2.386A45.174,45.174,0,0,0,367.832,111.251Z"
+                        transform="translate(-337.913 -84.439)" fill="#c6cb2e" />
+                    <path id="Tracé_9171" data-name="Tracé 9171"
+                        d="M388.233,113.714a30.481,30.481,0,0,0-17.371-9.024,6.663,6.663,0,0,0-3.008.059,2.656,2.656,0,0,0-1.927,2.119c-.145,1.577,1.5,2.672,2.946,3.314A39.45,39.45,0,0,0,388.233,113.714Z"
+                        transform="translate(-357.766 -86.84)" fill="#c6cb2e" />
+                    <path id="Tracé_9172" data-name="Tracé 9172"
+                        d="M398.455,99.848a29.845,29.845,0,0,0-10.986-13.912,13.057,13.057,0,0,0-6.733-2.608c-.959-.033-2.157.313-2.3,1.262a2.168,2.168,0,0,0,.492,1.443C383.554,93.057,391.455,97.077,398.455,99.848Z"
+                        transform="translate(-378.426 -83.325)" fill="#c6cb2e" />
+                    <path id="Tracé_9173" data-name="Tracé 9173"
+                        d="M375.743,132.657a49.15,49.15,0,0,0-8.722-7.689,21.976,21.976,0,0,0-10.869-3.811,4.058,4.058,0,0,0-1.837.234,1.636,1.636,0,0,0-1.036,1.427c.013.744.667,1.3,1.273,1.73A42.538,42.538,0,0,0,375.743,132.657Z"
+                        transform="translate(-334.732 -89.589)" fill="#c6cb2e" />
+                    <path id="Tracé_9174" data-name="Tracé 9174"
+                        d="M371.342,153.583A71.874,71.874,0,0,0,353.9,138.8c-2.788-1.69-5.919-3.257-9.223-3.089a2.225,2.225,0,0,0-1.987.921c-.4.859.451,1.769,1.232,2.389A85.631,85.631,0,0,0,371.342,153.583Z"
+                        transform="translate(-321.414 -91.999)" fill="#c6cb2e" />
+                    <path id="Tracé_9175" data-name="Tracé 9175"
+                        d="M370.923,174.831a53.046,53.046,0,0,0-27.466-17.368c-1.148-.283-2.641-.39-3.234.633-.532.918.088,2.069.789,2.864a22.3,22.3,0,0,0,5.063,3.978C353.886,169.817,362.4,173.576,370.923,174.831Z"
+                        transform="translate(-318.851 -95.571)" fill="#c6cb2e" />
+                    <path id="Tracé_9176" data-name="Tracé 9176"
+                        d="M344.569,129.172a28.647,28.647,0,0,0,6.588-21.487c-.1-.921-.421-2.032-1.325-2.234-1.1-.248-1.871,1.051-2.224,2.125A57.224,57.224,0,0,0,344.569,129.172Z"
+                        transform="translate(-302.961 -86.984)" fill="#c6cb2e" />
+                    <path id="Tracé_9177" data-name="Tracé 9177"
+                        d="M328.557,152.459a26.524,26.524,0,0,0,12.983-23.1,2.241,2.241,0,0,0-.743-1.942c-1.007-.626-2.171.514-2.791,1.524A72.431,72.431,0,0,0,328.557,152.459Z"
+                        transform="translate(-279.908 -90.597)" fill="#c6cb2e" />
+                    <path id="Tracé_9178" data-name="Tracé 9178"
+                        d="M312.854,173.426c3.28-.149,6.065-2.344,8.557-4.482a61.81,61.81,0,0,0,8.318-8.227,24.537,24.537,0,0,0,5.113-10.417,5.362,5.362,0,0,0,.03-2.509,2.253,2.253,0,0,0-1.718-1.669c-1.111-.154-2.048.77-2.776,1.62A134.629,134.629,0,0,0,312.854,173.426Z"
+                        transform="translate(-260.268 -93.722)" fill="#c6cb2e" />
+                    <path id="Tracé_9179" data-name="Tracé 9179" d="M338.37,93.452a98.2,98.2,0,0,1,42.252,93.05"
+                        transform="translate(-327.879 -85.002)" fill="none" stroke="#4c1d12" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" />
+                    <path id="Tracé_9180" data-name="Tracé 9180"
+                        d="M333.321,138.681a137.8,137.8,0,0,1,22.636,15.48l8.424-20.39"
+                        transform="translate(-306.717 -91.68)" fill="none" stroke="#4c1d12" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" />
+                    <path id="Tracé_9181" data-name="Tracé 9181"
+                        d="M317.411,162.2a131.159,131.159,0,0,1,24.929,13.445l17.438-21.179"
+                        transform="translate(-288.839 -95.107)" fill="none" stroke="#4c1d12" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" />
+                    <path id="Tracé_9182" data-name="Tracé 9182" d="M381.23,113.485a70.3,70.3,0,0,0-14.1-3.056"
+                        transform="translate(-351.775 -87.814)" fill="none" stroke="#4c1d12" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" />
+                    <path id="Tracé_9183" data-name="Tracé 9183" d="M367.608,97.812a84.6,84.6,0,0,1,.569,13.1"
+                        transform="translate(-339.171 -85.725)" fill="none" stroke="#4c1d12" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" />
+                    <path id="Tracé_9184" data-name="Tracé 9184" d="M369.39,134.038a90.212,90.212,0,0,0-17.1-7.232"
+                        transform="translate(-327.55 -90.526)" fill="none" stroke="#4c1d12" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" />
+                    <path id="Tracé_9185" data-name="Tracé 9185" d="M351.631,112.658a134.357,134.357,0,0,1-4.284,18.538"
+                        transform="translate(-305.67 -88.183)" fill="none" stroke="#4c1d12" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" />
+                </svg>
+            </div>
+
+        </div>
+        <div class="profil_1">
+            <img alt="avatar" src="img/avatars/avatar1-beige.svg"
+            id="avatar_img" class="avatar_img"><br><span id="profil_name"></span> 
+        </div>
+        <div class="container profil_2">
+            <p class="infoBubul">
+                <br>
+                Ici, tu peux personnaliser tes préférences en déplaçant le curseur pour ton seuil d’alerte sur base de
+                100gr/ml d’un produit ou de la proportion que tu choisis sur chacune des fiches produits que tu auras
+                scannées.
+                <br><br>
+                Prends toujours attention à ces choix, sois attentif à ton corps et dans le cadre de régime, demande des
+                conseils à ton spécialiste.
+            </p>
+
+
+            <div class="apropos_overlay" onclick="showDetails(this);">
+                <h2 class="header_overlay">&nbsp;&nbsp;?&nbsp;&nbsp;&nbsp;</h2>
+            </div>
+
+        </div>
+        <div class="container  profil_3">
+            <div style="text-align: left;">
+                <b>Energie</b> <span style="font-size: 0.8em;">(min : 0 -
+                    max : 2000)</span> : <b><span id="ENERValue">350</span></b><span style="font-size: 0.8em;">
+                    kcal</span>
+
+                <table style="width: 100%; text-align: center;">
+                    <tr>
+                        <td style="width: 95%">
+                            <input class="nutrientSlider" type="range" id="ENER" name="ENER"
+                                style="width: 90% !important" min="0" max="2000" value="350" step="10">
+                        </td>
+                        <td width="18px">
+                            <div>
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" id="ENERCheck" onclick="toggleNutrient(this, 'ENER');">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <b>Graisse</b> <span style="font-size: 0.8em;">(min : 0 -
+                    max : 70)</span> : <b><span id="FATValue">20</span></b><span style="font-size: 0.8em;"> g</span>
+                <table style="width: 100%; text-align: center;">
+                    <tr>
+
+                        <td style="width: 95%">
+                            <input class="nutrientSlider" type="range" id="FAT" name="FAT" style="width: 90% !important"
+                                min="0" max="70" value="20" step="1">
+                        </td>
+                        <td width="18px">
+                            <div>
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" id="FATCheck" onclick="toggleNutrient(this, 'FAT');">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <b>Acides gras, saturés</b> <span style="font-size: 0.8em;">(min
+                    : 0 - max : 20)</span> : <b><span id="FASATValue">10</span></b><span style="font-size: 0.8em;">
+                    g</span>
+                <table style="width: 100%; text-align: center;">
+                    <tr>
+                        <td style="width: 95%">
+                            <input class="nutrientSlider" type="range" id="FASAT" name="FASAT"
+                                style="width: 90% !important" min="0" max="20" value="10" step="1">
+                        </td>
+                        <td>
+                            <div>
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" id="FASATCheck" onclick="toggleNutrient(this, 'FASAT');">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <b>Glucides</b> <span style="font-size: 0.8em;">(min : 0 -
+                    max : 260)</span> : <b><span id="CHOAVLValue">36</span></b><span style="font-size: 0.8em;"> g</span>
+                <table style="width: 100%; text-align: center;">
+                    <tr>
+                        <td style="width: 95%">
+                            <input class="nutrientSlider" type="range" id="CHOAVL" name="CHOAVL"
+                                style="width: 90% !important" min="0" max="260" value="36" step="1">
+                        </td>
+                        <td>
+                            <div>
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" id="CHOAVLCheck"
+                                            onclick="toggleNutrient(this, 'CHOAVL');">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <b>Sucres</b> <span style="font-size: 0.8em;">(min : 0 - max
+                    : 90)</span> : <b><span id="SUGARValue">15</span></b><span style="font-size: 0.8em;"> g</span>
+                <table style="width: 100%; text-align: center;">
+                    <tr>
+                        <td style="width: 95%">
+                            <input class="nutrientSlider" type="range" id="SUGAR" name="SUGAR"
+                                style="width: 90% !important" min="0" max="60" value="15" step="1">
+                        </td>
+                        <td>
+                            <div>
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" id="SUGARCheck"
+                                            onclick="toggleNutrient(this, 'SUGAR');">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <b>Protéine</b> <span style="font-size: 0.8em;">(min : 0 -
+                    max : 50)</span> : <b><span id="PROValue">8</span></b><span style="font-size: 0.8em;"> g</span>
+                <table style="width: 100%; text-align: center;">
+                    <tr>
+                        <td style="width: 95%">
+                            <input class="nutrientSlider" type="range" id="PRO" name="PRO"
+                                style="width: 90% !important" min="0" max="50" value="8" step="1">
+                        </td>
+                        <td>
+                            <div>
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" id="PROCheck" onclick="toggleNutrient(this, 'PRO');">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <b>Fibres</b> <span style="font-size: 0.8em;">(min : 0 -
+                    max : 35)</span> : <b><span id="FIBTGValue">3</span></b><span style="font-size: 0.8em;"> g</span>
+                <table style="width: 100%; text-align: center;">
+                    <tr>
+                        <td style="width: 95%">
+                            <input class="nutrientSlider" type="range" id="FIBTG" name="FIBTG"
+                                style="width: 90% !important" min="0" max="8" value="3" step="1">
+                        </td>
+                        <td>
+                            <div>
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" id="FIBTGCheck" onclick="toggleNutrient(this, 'FIBTG');">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <b>Sel</b> <span style="font-size: 0.8em;">(min
+                    : 0 - max : 6)</span> : <b><span id="SALTEQValue">1</span></b><span style="font-size: 0.8em;">
+                    g</span>
+                <table style="width: 100%; text-align: center;">
+                    <tr>
+                        <td style="width: 95%">
+                            <input class="nutrientSlider" type="range" id="SALTEQ" name="SALTEQ"
+                                style="width: 90% !important" min="0" max="6" value="1" step="0.5">
+                        </td>
+                        <td>
+                            <div>
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" id="SALTEQCheck"
+                                            onclick="toggleNutrient(this, 'SALTEQ');">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <div style="text-align: center; width: 100%;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="257.352" height="34.247" viewBox="0 0 257.352 34.247">
+            <g id="Groupe_14" data-name="Groupe 14" transform="translate(-468.533 -1295.706)">
+                <path id="Tracé_31" data-name="Tracé 31"
+                    d="M725.885,1312.83c0,9.457-57.61,17.123-128.676,17.123s-128.676-7.666-128.676-17.123,57.61-17.124,128.676-17.124S725.885,1303.373,725.885,1312.83Z"
+                    transform="translate(0 0)" fill="#f8f8dd" />
+                <g id="Groupe_3" data-name="Groupe 3" transform="translate(569.336 1298.807)">
+                    <path id="Tracé_32" data-name="Tracé 32"
+                        d="M983.336,1315.358l-.119-.181a3.528,3.528,0,0,0,1.41-1.785,1.177,1.177,0,0,0-.232-.934.639.639,0,0,0-.557-.3c-1.066.015-2.61,2.215-2.626,2.238l-.281.4.085-.484c0-.019.337-1.965-.342-2.546a.879.879,0,0,0-.9-.076,1.309,1.309,0,0,0-.831.747,4.253,4.253,0,0,0,.377,2.778l-.195.1a4.378,4.378,0,0,1-.383-2.956,1.518,1.518,0,0,1,.962-.869,1.077,1.077,0,0,1,1.106.117c.565.484.533,1.686.469,2.329.5-.645,1.639-1.979,2.55-1.992a.875.875,0,0,1,.735.386,1.386,1.386,0,0,1,.271,1.1A3.674,3.674,0,0,1,983.336,1315.358Z"
+                        transform="translate(-978.598 -1311.396)" fill="#002b34" />
+                </g>
+                <g id="Groupe_4" data-name="Groupe 4" transform="translate(478.103 1309.238)">
+                    <path id="Tracé_33" data-name="Tracé 33"
+                        d="M516.962,1367.153a.639.639,0,0,1,.186-.539,2.43,2.43,0,0,1,1.518-.426c-.649-.228-1.494-.61-1.67-1.1a.583.583,0,0,1,.1-.569c.783-1.059,3.41.642,3.522.715l-.119.182c-.712-.465-2.679-1.51-3.228-.768a.373.373,0,0,0-.071.366c.2.567,1.725,1.054,2.293,1.194l-.036.213c-.017,0-1.661-.157-2.155.341a.423.423,0,0,0-.125.363Z"
+                        transform="translate(-516.958 -1364.177)" fill="#002b34" />
+                </g>
+                <g id="Groupe_5" data-name="Groupe 5" transform="translate(517.892 1316.621)">
+                    <path id="Tracé_34" data-name="Tracé 34"
+                        d="M721.944,1404.511l-.216-.023a.424.424,0,0,0-.124-.363c-.41-.413-1.695-.386-2.155-.341l-.037-.213c.569-.14,2.089-.627,2.293-1.193a.373.373,0,0,0-.071-.367c-.549-.743-2.517.3-3.228.768l-.119-.181c.112-.073,2.739-1.773,3.521-.715a.582.582,0,0,1,.1.569c-.175.485-1.021.867-1.67,1.1a2.426,2.426,0,0,1,1.518.426A.637.637,0,0,1,721.944,1404.511Z"
+                        transform="translate(-718.288 -1401.535)" fill="#002b34" />
+                </g>
+                <g id="Groupe_6" data-name="Groupe 6" transform="translate(699.798 1305.164)">
+                    <path id="Tracé_35" data-name="Tracé 35"
+                        d="M1642.389,1346.54l-.216-.023a.422.422,0,0,0-.125-.363c-.493-.5-2.138-.342-2.154-.341l-.037-.213c.569-.14,2.089-.627,2.293-1.194a.373.373,0,0,0-.071-.366c-.55-.744-2.516.3-3.228.767l-.119-.181c.112-.073,2.738-1.774,3.521-.715a.581.581,0,0,1,.1.569c-.175.485-1.021.867-1.669,1.1a2.425,2.425,0,0,1,1.517.426A.638.638,0,0,1,1642.389,1346.54Z"
+                        transform="translate(-1638.733 -1343.565)" fill="#002b34" />
+                </g>
+                <g id="Groupe_7" data-name="Groupe 7" transform="translate(676.314 1316.209)">
+                    <path id="Tracé_36" data-name="Tracé 36"
+                        d="M1529.292,1404.009a1.632,1.632,0,0,0-.682-1.327,3.119,3.119,0,0,0-2.313-.041l-.495.182.354-.391c.01-.012,1.02-1.139.813-1.957a1.056,1.056,0,0,0-.76-.692c-1.791-.629-3.258,3.019-3.331,3.2l0,.009-.241-.1a.027.027,0,0,0,0-.006,1.648,1.648,0,0,0-.035-1.312,1.372,1.372,0,0,0-1.164-.51,1.2,1.2,0,0,0-1.1.373c-.375.526-.016,1.445-.012,1.454l-.241.1a2.051,2.051,0,0,1,.042-1.7,1.432,1.432,0,0,1,1.323-.481,1.607,1.607,0,0,1,1.371.63,1.327,1.327,0,0,1,.2.611c.587-1.159,1.8-3.036,3.279-2.516a1.3,1.3,0,0,1,.925.874,2.527,2.527,0,0,1-.611,1.868,2.906,2.906,0,0,1,2.139.182,1.878,1.878,0,0,1,.8,1.524Z"
+                        transform="translate(-1519.907 -1399.449)" fill="#002b34" />
+                </g>
+                <g id="Groupe_8" data-name="Groupe 8" transform="translate(633.59 1316.297)">
+                    <path id="Tracé_37" data-name="Tracé 37"
+                        d="M1305.952,1403.519c-.091-.055-2.228-1.353-2.228-2.49a1.027,1.027,0,0,1,.584-.881,1.581,1.581,0,0,1,1.316-.182,4.345,4.345,0,0,1,2.071,2.1c1.1-.655,1.922-.813,2.439-.472.739.488.555,1.794.547,1.849l-.214-.031c0-.012.171-1.225-.452-1.637-.456-.3-1.232-.12-2.306.537l-.1.063-.052-.109c-.008-.017-.842-1.745-1.992-2.092a1.373,1.373,0,0,0-1.142.161.815.815,0,0,0-.479.695c0,1.016,2.1,2.292,2.123,2.3Z"
+                        transform="translate(-1303.724 -1399.896)" fill="#002b34" />
+                </g>
+                <g id="Groupe_12" data-name="Groupe 12" transform="translate(490.438 1296.718)">
+                    <path id="Tracé_39" data-name="Tracé 39"
+                        d="M584.173,1318.639s3.37-3.758,2.21-5.9-3.116,4.6-3.116,4.6,1.015-7.968-1.087-8.106,0,8.106,0,8.106-.779-1.922-1.54-2.041-.544,1.63.815,3.342Z"
+                        transform="translate(-474.459 -1295.138)" fill="#c6cb2e" />
+                    <g id="Groupe_10" data-name="Groupe 10" transform="translate(0.164 1.661)">
+                        <path id="Tracé_39-2" data-name="Tracé 39"
+                            d="M583.393,1320.406s-4.379-4.464-2.872-7.006,4.049,5.461,4.049,5.461-1.318-9.464,1.412-9.628,0,9.628,0,9.628,1.012-2.284,2-2.425.706,1.936-1.059,3.969Z"
+                            transform="translate(-580.205 -1309.231)" fill="#c6cb2e" />
+                    </g>
+                    <g id="Groupe_15" data-name="Groupe 15" transform="translate(57.754 16.225)">
+                        <path id="Tracé_39-3" data-name="Tracé 39"
+                            d="M582.658,1318.639s-3.37-3.758-2.21-5.9,3.116,4.6,3.116,4.6-1.014-7.968,1.087-8.106,0,8.106,0,8.106.779-1.922,1.54-2.041.544,1.63-.815,3.342Z"
+                            transform="translate(-580.205 -1309.231)" fill="#c6cb2e" />
+                    </g>
+                    <g id="Groupe_11" data-name="Groupe 11" transform="translate(0 0)">
+                        <path id="Tracé_40" data-name="Tracé 40"
+                            d="M583.039,1313.776a19.941,19.941,0,0,1-2.29-2.918c-1.4-2.213-1.732-3.97-.99-5.222.277-.467.609-.682.988-.639,1.283.146,2.688,3.485,3.416,5.474-.241-2.484-.515-7.4.845-9.056a1.473,1.473,0,0,1,1.074-.583,1.118,1.118,0,0,1,.99.432c1.226,1.518.118,6.881-.491,9.39.454-.736,1.1-1.556,1.758-1.65a.64.64,0,0,1,.7.328c.4.729-.151,2.589-1.757,4.439l-.242-.21c1.578-1.818,2.012-3.535,1.717-4.075a.323.323,0,0,0-.373-.164c-.847.121-1.836,1.959-2.146,2.656l-.3-.108c.006-.022.6-2.179,1.006-4.541.525-3.089.483-5.116-.12-5.864a.807.807,0,0,0-.722-.313,1.15,1.15,0,0,0-.845.466c-1.722,2.1-.619,10.191-.608,10.273l-.311.071c-.571-1.8-2.337-6.5-3.626-6.645-.245-.029-.466.13-.676.484-1.627,2.745,3.185,7.7,3.234,7.753Z"
+                            transform="translate(-579.373 -1300.828)" fill="#002b34" />
+                    </g>
+                </g>
+                <g id="Groupe_13" data-name="Groupe 13" transform="translate(548.041 1312.344)">
+                    <path id="Tracé_41" data-name="Tracé 41"
+                        d="M873.8,1390.341a16.085,16.085,0,0,1-1.848-2.355c-1.129-1.785-1.4-3.2-.8-4.213.223-.377.492-.55.8-.516,1.035.118,2.169,2.812,2.756,4.416-.194-2-.416-5.967.682-7.307a1.187,1.187,0,0,1,.866-.47.9.9,0,0,1,.8.349c.989,1.224.095,5.551-.4,7.576.367-.594.887-1.256,1.418-1.332a.518.518,0,0,1,.564.264c.321.588-.122,2.089-1.417,3.581l-.2-.169c1.274-1.467,1.623-2.852,1.386-3.288a.261.261,0,0,0-.3-.132c-.684.1-1.482,1.58-1.731,2.143l-.243-.087c0-.017.488-1.758.812-3.663.424-2.491.39-4.128-.1-4.731a.653.653,0,0,0-.582-.253.928.928,0,0,0-.682.376c-1.389,1.7-.5,8.223-.491,8.288l-.251.057c-.461-1.451-1.885-5.242-2.925-5.361-.2-.022-.377.1-.546.39-1.312,2.214,2.57,6.214,2.609,6.255Z"
+                        transform="translate(-870.844 -1379.895)" fill="#002b34" />
+                </g>
+                <g id="Groupe_9" data-name="Groupe 9" transform="translate(595.076 1310.972)">
+                    <path id="Tracé_38" data-name="Tracé 38"
+                        d="M1123.777,1381.714c.14-.142,3.406-3.509,2.221-5.509-.187-.316-.412-.463-.669-.432-.868.1-1.819,2.358-2.311,3.7.163-1.681.349-5-.572-6.129a1,1,0,0,0-.726-.394.758.758,0,0,0-.67.292c-.83,1.027-.08,4.657.333,6.355-.307-.5-.744-1.053-1.19-1.117a.433.433,0,0,0-.473.222c-.269.494.1,1.752,1.189,3l.164-.142c-1.068-1.231-1.361-2.392-1.162-2.758a.219.219,0,0,1,.252-.111c.573.082,1.243,1.326,1.452,1.8l.2-.073c-.016-.058-1.6-5.8-.6-7.041a.546.546,0,0,1,.488-.212.779.779,0,0,1,.572.315c1.165,1.424.419,6.9.411,6.952l.211.048c.387-1.218,1.581-4.4,2.454-4.5.164-.017.316.088.458.328,1.1,1.857-2.156,5.213-2.188,5.246Z"
+                        transform="translate(-1119.634 -1372.952)" fill="#002b34" />
+                </g>
+            </g>
+        </svg><br>
+        <src img="img/logo/logoBatraFull.svg">
+    </div>
+
+    <a href='#top'>
+        <svg id="button_goTop" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="40" height="40" viewBox="0 0 19.782 19.782">
+            <defs>
+                <filter id="Tracé_28" x="0" y="0" width="19.782" height="19.782" filterUnits="userSpaceOnUse">
+                    <feOffset dy="1" input="SourceAlpha" />
+                    <feGaussianBlur stdDeviation="0.5" result="blur" />
+                    <feFlood flood-color="#4c1d12" />
+                    <feComposite operator="in" in2="blur" />
+                    <feComposite in="SourceGraphic" />
+                </filter>
+            </defs>
+            <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tracé_28)">
+                <path id="Tracé_28-2" data-name="Tracé 28"
+                    d="M124.347,51.214V45.651s.081-3.343,3.1-3.442,5.516,0,5.516,0"
+                    transform="translate(-114.12 66.87) rotate(-45)" fill="none" stroke="#8c4d20" stroke-linecap="round"
+                    stroke-linejoin="bevel" stroke-width="3" />
+            </g>
+        </svg>
+    </a>
+    <div id="footer">
+        <a href="https://www.batra.be" target="_BLANK"><img src="img/footerbatra.svg"></a>
+        <a href="https://www.aktina.be" target="_BLANK"><img src="img/Logo-AKTINA-coul.png"></a>    <a href="https://www.aviq.be/fr" target="_BLANK"><img src="img/Aviq.png"></a>
+    
+      </div>
+      <div id="popupGeminiButton">
+        <div style="position: relative">
+            <img id="popupGeminiImage" class="popupGeminiButton_unselected" src="img/logo/gemini_nano.webp">
+            <img class="languageFlagTranslator" src="/images/languages/zh-CNP.svg" id="Translator_zh-CNP" alt="Mandarin">
+            <img class="languageFlagTranslator" src="/images/languages/es-ES.svg" id="Translator_es-ES" alt="Español">
+            <img class="languageFlagTranslator" src="/images/languages/en-US.svg" id="Translator_en-US" alt="English">
+            <img class="languageFlagTranslator" src="/images/languages/hi-IN.svg" id="Translator_hi-IN" alt="Hindi">
+            <img class="languageFlagTranslator" src="/images/languages/pt-BR.svg" id="Translator_pt-BR" alt="Português">
+            <img class="languageFlagTranslator" src="/images/languages/ru-RU.svg" id="Translator_ru-RU" alt="Русский">
+            <img class="languageFlagTranslator" src="/images/languages/ja-JP.svg" id="Translator_ja-JP" alt="日本語">
+            <img class="languageFlagTranslator" src="/images/languages/fr-FR.svg" id="Translator_fr-FR" alt="Français">
+            <img class="languageFlagTranslator" src="/images/languages/de-DE.svg" id="Translator_de-DE" alt="Deutsch">
+            <img class="languageFlagTranslator" src="/images/languages/it-IT.svg" id="Translator_it-IT" alt="Italiano">
+            <img class="languageFlagTranslator" src="/images/languages/ko-KR.svg" id="Translator_ko-KR" alt="한국의">
+            <img class="languageFlagTranslator" src="/images/languages/nl-NL.svg" id="Translator_nl-NL" alt="Nederlands">
+        </div>
+        
+      </div>
+    <script src="js/profil_nutrientValues.js"></script>
+    <script src="js/language.js"></script>
+</body>
+
+</html>

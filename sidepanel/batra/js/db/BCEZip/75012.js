@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"PARIS","Denomination_FR":"TAMAGO FOOD SARL","HouseNumber":"38","website":null,"NaceCode_desc":"Fabrication d'autres produits alimentaires n.c.a.","MunicipalityFR":"PARIS","StreetFR":"BOULEVARD DE REUILLY","NaceCode":"10890","phone":null,"Zipcode":"75012","StreetNL":"BOULEVARD DE REUILLY","EntityNumber":"0757.627.804","Denomination_NL":null,"email":null,"Denomination_DE":null},
+]

@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"NYRANY","Denomination_FR":null,"HouseNumber":"58","website":null,"NaceCode_desc":"Fabrication industrielle de pain et de pâtisserie fraîche","MunicipalityFR":"NYRANY","StreetFR":"MYSLINKA","NaceCode":"10711","phone":"+420 377194311","Zipcode":"330 23","StreetNL":"MYSLINKA","EntityNumber":"0542.858.619","Denomination_NL":null,"email":null,"Denomination_DE":"RINA EUROPE SRO"},
+]

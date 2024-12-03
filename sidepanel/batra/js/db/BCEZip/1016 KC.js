@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Amsterdam","Denomination_FR":null,"HouseNumber":"31-33 H","website":null,"NaceCode_desc":"Préparation de produits à base de viande ou de viande de volaille","MunicipalityFR":"Amsterdam","StreetFR":"Bloemgracht","NaceCode":"10130","phone":null,"Zipcode":"1016 KC","StreetNL":"Bloemgracht","EntityNumber":"0453.992.563","Denomination_NL":null,"email":null,"Denomination_DE":"HELIOS MARKET, PRODUKT & PRODUCTION DEVELOPMENT"},
+]

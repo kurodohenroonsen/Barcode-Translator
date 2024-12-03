@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"sint-philipsland","Denomination_FR":null,"HouseNumber":"53","website":null,"NaceCode_desc":"Culture de céréales et cultures industrielles","MunicipalityFR":"sint-philipsland","StreetFR":"langeweg","NaceCode":"01110","phone":null,"Zipcode":"4675 rk","StreetNL":"langeweg","EntityNumber":"0734.411.150","Denomination_NL":null,"email":null,"Denomination_DE":"vermeulen agri vof"},
+{"MunicipalityNL":"sint-philipsland","Denomination_FR":null,"HouseNumber":"53","website":null,"NaceCode_desc":"Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses","MunicipalityFR":"sint-philipsland","StreetFR":"langeweg","NaceCode":"01110","phone":null,"Zipcode":"4675 rk","StreetNL":"langeweg","EntityNumber":"0734.411.150","Denomination_NL":null,"email":null,"Denomination_DE":"vermeulen agri vof"},
+]

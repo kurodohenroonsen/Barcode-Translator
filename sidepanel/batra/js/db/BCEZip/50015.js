@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"ZARAGOZA","Denomination_FR":null,"HouseNumber":"76","website":null,"NaceCode_desc":"Fabrication de produits amylacés","MunicipalityFR":"ZARAGOZA","StreetFR":"AVENIDA SALVADOR ALLENDE","NaceCode":"10620","phone":null,"Zipcode":"50015","StreetNL":"AVENIDA SALVADOR ALLENDE","EntityNumber":"0500.766.656","Denomination_NL":null,"email":null,"Denomination_DE":"SYRAL IBERIA SA"},
+]

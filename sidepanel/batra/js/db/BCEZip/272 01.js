@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"KLADNO","Denomination_FR":null,"HouseNumber":"2748","website":null,"NaceCode_desc":"Fabrication de biscuits, de biscottes et de pâtisseries de conservation","MunicipalityFR":"KLADNO","StreetFR":"U KOZOVY HORY","NaceCode":"10720","phone":"00420312511511","Zipcode":"272 01","StreetNL":"U KOZOVY HORY","EntityNumber":"0676.867.582","Denomination_NL":null,"email":"p.vaax@llcg.com","Denomination_DE":"LA LORRAINE"},
+]

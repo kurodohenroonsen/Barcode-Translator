@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"DOUAI","Denomination_FR":"NORDESOSSE SARL","HouseNumber":"21","website":null,"NaceCode_desc":"Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille","MunicipalityFR":"DOUAI","StreetFR":"rue de la Croix d'or","NaceCode":"10110","phone":null,"Zipcode":"59500","StreetNL":"rue de la Croix d'or","EntityNumber":"0850.734.342","Denomination_NL":null,"email":null,"Denomination_DE":null},
+]

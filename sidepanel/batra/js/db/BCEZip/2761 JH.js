@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"ZEVENHUIZEN","Denomination_FR":null,"HouseNumber":"17","website":null,"NaceCode_desc":"Elevage de poules","MunicipalityFR":"ZEVENHUIZEN","StreetFR":"BIERHOOGTWEG","NaceCode":"01471","phone":null,"Zipcode":"2761 JH","StreetNL":"BIERHOOGTWEG","EntityNumber":"0747.991.645","Denomination_NL":null,"email":null,"Denomination_DE":"PLUIMVEEHANDEL NEDERLAND BV"},
+{"MunicipalityNL":"ZEVENHUIZEN","Denomination_FR":null,"HouseNumber":"17","website":null,"NaceCode_desc":"Élevage de volailles, sauf poules","MunicipalityFR":"ZEVENHUIZEN","StreetFR":"BIERHOOGTWEG","NaceCode":"01479","phone":"0180-632508","Zipcode":"2761 JH","StreetNL":"BIERHOOGTWEG","EntityNumber":"0648.584.560","Denomination_NL":null,"email":null,"Denomination_DE":"EXPORTSLACHTERIJ CLAZING BV"},
+]

@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <script src="html5-qrcode.min.js"></script>
+</head>
+
+<body>
+  <div><a href="batra/listProfils.html"><img src="batra/img/logo/logoBatra.png" style="width:50px"></a></div>
+  <div id="scanner" class="modal">
+    <div class="scanner-content">
+      <span id="closeScannerModal" class="close">&times;</span>
+      <h1>Scan barcode</h1>
+
+      <div id="qr-reader" style="margin:auto;">
+      </div>
+      <h4>Barcode Number : </h4>
+      <input type="text" id="gtin" placeholder="Enter the barcode"><br><br>
+      <button id="button-search" class="primary" disabled>Continue</button>
+    </div>
+  </div>
+  <div id="geminiNanoGeneration" class="modal">
+    <div class="geminiNanoGeneration-content">
+      <span id="closeGeminiNanoGenerationModal" class="close">&times;</span>
+      <h2>Barcode Translator Community's Product story</h2>
+      <div id="barcodeTranslatorFileTypeModal"></div>
+      <div id="barcodeTranslatorFileDateModal"></div>
+      <div id="barcodeTranslatorContentModal"></div>
+      
+    </div>
+  </div>
+  <div id="offModal" class="modal">
+    <div class="off-content">
+      <span id="closeOffModal" class="close">&times;</span>
+      <img src="/images/logo/off-logo-horizontal-light.svg" style="width: 200px;">
+      <div id="off_result"></div>
+      <div id="wikipediaPanel" style="display:none; border:1px solid #ccc; padding:10px; z-index:1000;"></div>
+
+    </div>
+  </div>
+  <div id="languages">
+    Available languages : <br>
+    <img class="languageFlag" src="/images/languages/zh-CNP.svg" id="zh-CNP" alt="Mandarin">
+    <img class="languageFlag" src="/images/languages/es-ES.svg" id="es-ES" alt="Español">
+    <img class="languageFlag" src="/images/languages/en-US.svg" id="en-US" alt="English">
+    <img class="languageFlag" src="/images/languages/hi-IN.svg" id="hi-IN" alt="Hindi">
+    <img class="languageFlag" src="/images/languages/pt-BR.svg" id="pt-BR" alt="Português">
+    <img class="languageFlag" src="/images/languages/ru-RU.svg" id="ru-RU" alt="Русский">
+    <img class="languageFlag" src="/images/languages/ja-JP.svg" id="ja-JP" alt="日本語">
+    <img class="languageFlag" src="/images/languages/fr-FR.svg" id="fr-FR" alt="Français">
+    <img class="languageFlag" src="/images/languages/de-DE.svg" id="de-DE" alt="Deutsch">
+    <img class="languageFlag" src="/images/languages/it-IT.svg" id="it-IT" alt="Italiano">
+    <img class="languageFlag" src="/images/languages/ko-KR.svg" id="ko-KR" alt="한국의">
+    <img class="languageFlag" src="/images/languages/nl-NL.svg" id="nl-NL" alt="Nederlands">
+
+  </div>
+
+  <h1>
+    Barcode Translator
+  </h1>
+  <button id="scan-button">SCAN</button>
+  
+
+  <div id="barcodeTranslatorFiles_container">
+    <h2 id="gtinH2"></h2>
+    <img class="off" src="/images/logo/off-logo-horizontal-light.svg" style="width: 100px;" id="offBtn">
+    <img class="off" style="max-width: 100px;max-height: 100px;" id="offImage"><span id="offSummary" class="off"></span>
+    <h2>Barcode Translator Community's Product stories</h2>
+    <div id="barcodeTranslatorFiles_list_container">
+
+    </div>
+  </div>
+
+  <div id="searchEngineCards_container">
+    <h2>Barcode Translator Product story maker <span style="font-size:0.5em" id="includeOFF" class="off"> Include <img src="off.webp" style="width: 15px;">OpenFoodFacts<img src="off.webp" style="width: 15px;"> data?<input type="checkbox" id="includeOFFTextcheckbox"></span></h2>
+    
+    <div id="newStory">New Story : ... </div>
+    <button id="search-button">Search information on the web</button><br>with <select id="searchEngine"><option value="Google search" disabled>Google search</option><option selected value="DuckDuckGo">DuckDuckGo</option></select>
+    <h3>Search cards found</h2>
+    <div id="searchEngineCards_list_container">
+
+    </div>
+    <br>
+    <button id="writer-button" disabled>Generate a story about this product</button>
+   </div>
+   <br><br><br> 
+   <div id="ld-json">
+    <h2>Barcode Translator Product "application/ld+json" generator <span class="off" style="font-size:0.5em" id="includeOFF"> Include <img src="off.webp" style="width: 15px;">OpenFoodFacts<img src="off.webp" style="width: 15px;"> data?<input type="checkbox" id="includeOFFJsoncheckbox"></span></h2>
+   
+    <textarea id="input-prompt" placeholder='Type something, e.g. "Write a haiku about Chrome Extensions"' style="width: 100%;"
+      rows="5"></textarea>
+    <div>
+      <input type="range" id="temperature" name="temperature" min="0" max="2" step="0.01" />
+      <label for="temperature">Temperature: <span id="label-temperature"></span></label>
+    </div>
+    <div>
+      <input type="range" id="top-k" name="top-k" min="1" max="8" step="1" />
+      <label for="top-k">Top-k: <span id="label-top-k"></span></label>
+    </div>
+    <button id="button-prompt" class="primary" disabled>Generate "application/ld+json"</button>
+    <button id="button-reset" class="secondary" disabled>Reset</button>
+    <div id="response" class="text" hidden></div>
+    <div id="loading" class="text" hidden><span class="blink">...</span></div>
+    <div id="error" class="text" hidden></div>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>

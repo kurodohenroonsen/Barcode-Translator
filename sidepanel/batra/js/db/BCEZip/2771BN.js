@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Bolskoop","Denomination_FR":null,"HouseNumber":"321","website":null,"NaceCode_desc":"Exploitation de pépinières, sauf pépinières forestières","MunicipalityFR":"Bolskoop","StreetFR":"Reijerskoop","NaceCode":"01301","phone":null,"Zipcode":"2771BN","StreetNL":"Reijerskoop","EntityNumber":"0742.639.225","Denomination_NL":null,"email":null,"Denomination_DE":"G.C. Stolwijk & Co Holding bv"},
+]

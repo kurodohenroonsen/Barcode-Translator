@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Schiphol","Denomination_FR":null,"HouseNumber":"378","website":null,"NaceCode_desc":"Fabrication de produits amylacés","MunicipalityFR":"Schiphol","StreetFR":"Evert Van De Beekstraat","NaceCode":"10620","phone":null,"Zipcode":"1118CZ","StreetNL":"Evert Van De Beekstraat","EntityNumber":"0414.948.083","Denomination_NL":null,"email":null,"Denomination_DE":"Cargill BV"},
+]

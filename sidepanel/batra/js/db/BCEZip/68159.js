@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"MANNHEIM","Denomination_FR":null,"HouseNumber":"21-25","website":null,"NaceCode_desc":"Fabrication de cacao, de chocolat et de produits de confiserie","MunicipalityFR":"MANNHEIM","StreetFR":"NECKARVORLANDSTRASSE","NaceCode":"10820","phone":"+49 62110782265","Zipcode":"68159","StreetNL":"NECKARVORLANDSTRASSE","EntityNumber":"0677.504.418","Denomination_NL":null,"email":null,"Denomination_DE":"SCHOKINAG SCHOKOLADE INDUSTRIE GMBH"},
+]

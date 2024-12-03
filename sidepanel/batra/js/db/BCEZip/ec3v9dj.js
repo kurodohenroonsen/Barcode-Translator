@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"london","Denomination_FR":"Fidelitas Healthcare Limited","HouseNumber":"20","website":null,"NaceCode_desc":"Fabrication d'autres produits alimentaires n.c.a.","MunicipalityFR":"london","StreetFR":"birchin court","NaceCode":"10890","phone":null,"Zipcode":"ec3v9dj","StreetNL":"birchin court","EntityNumber":"0831.801.328","Denomination_NL":null,"email":null,"Denomination_DE":null},
+]

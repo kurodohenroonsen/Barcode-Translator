@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"LAUDUN-L'ARDOISE","Denomination_FR":null,"HouseNumber":"100","website":null,"NaceCode_desc":"Fabrication industrielle de pain et de pâtisserie fraîche","MunicipalityFR":"LAUDUN-L'ARDOISE","StreetFR":"RUE PAUL SABATIER","NaceCode":"10711","phone":null,"Zipcode":"30290","StreetNL":"RUE PAUL SABATIER","EntityNumber":"0855.696.386","Denomination_NL":null,"email":null,"Denomination_DE":"BERLIDON SA"},
+]

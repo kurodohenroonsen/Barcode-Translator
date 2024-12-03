@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Luxembourg","Denomination_FR":"Gelato Gourmet","HouseNumber":"13-15","website":null,"NaceCode_desc":"Fabrication de glaces de consommation","MunicipalityFR":"Luxembourg","StreetFR":"rue Fort Elisabeth","NaceCode":"10520","phone":null,"Zipcode":"1463","StreetNL":"rue Fort Elisabeth","EntityNumber":"0675.445.147","Denomination_NL":null,"email":null,"Denomination_DE":null},
+]

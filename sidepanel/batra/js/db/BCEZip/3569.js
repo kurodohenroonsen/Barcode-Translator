@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"DUDELANGE","Denomination_FR":"MAHEVIA SA","HouseNumber":"96","website":null,"NaceCode_desc":"Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille","MunicipalityFR":"DUDELANGE","StreetFR":"Rue Tattenberg","NaceCode":"10110","phone":null,"Zipcode":"3569","StreetNL":"Rue Tattenberg","EntityNumber":"0858.365.074","Denomination_NL":null,"email":null,"Denomination_DE":null},
+]

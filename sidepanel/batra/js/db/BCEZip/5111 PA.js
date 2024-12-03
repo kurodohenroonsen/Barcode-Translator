@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"BAARLE-NASSAU","Denomination_FR":null,"HouseNumber":"11","website":null,"NaceCode_desc":"Activités de soutien aux cultures","MunicipalityFR":"BAARLE-NASSAU","StreetFR":"OORDEELSESTRAAT","NaceCode":"01610","phone":"+31135077167","Zipcode":"5111 PA","StreetNL":"OORDEELSESTRAAT","EntityNumber":"0896.372.446","Denomination_NL":null,"email":null,"Denomination_DE":"LOONWERKEN LEON VERSCHUEREN"},
+]

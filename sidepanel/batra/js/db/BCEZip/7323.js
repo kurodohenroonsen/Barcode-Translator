@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"Give","Denomination_FR":null,"HouseNumber":"12","website":null,"NaceCode_desc":"Services annexes à la culture; aménagement des paysages","MunicipalityFR":"Give","StreetFR":"Sdr. Egsgardvej","NaceCode":"01410","phone":null,"Zipcode":"7323","StreetNL":"Sdr. Egsgardvej","EntityNumber":"0877.361.436","Denomination_NL":null,"email":null,"Denomination_DE":"Van Overbeek"},
+{"MunicipalityNL":"Give","Denomination_FR":null,"HouseNumber":"12","website":null,"NaceCode_desc":"Élevage de vaches laitières","MunicipalityFR":"Give","StreetFR":"Sdr. Egsgardvej","NaceCode":"01410","phone":null,"Zipcode":"7323","StreetNL":"Sdr. Egsgardvej","EntityNumber":"0877.361.436","Denomination_NL":null,"email":null,"Denomination_DE":"Van Overbeek"},
+]

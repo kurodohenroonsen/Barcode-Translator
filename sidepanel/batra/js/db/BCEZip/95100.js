@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"ARGENTEUIL","Denomination_FR":null,"HouseNumber":"8","website":null,"NaceCode_desc":"Transformation du thé et du café","MunicipalityFR":"ARGENTEUIL","StreetFR":"RUE DE L'ANGOUMOIS","NaceCode":"10830","phone":null,"Zipcode":"95100","StreetNL":"RUE DE L'ANGOUMOIS","EntityNumber":"0851.895.768","Denomination_NL":null,"email":null,"Denomination_DE":"MIKO CAFE SERVICE SA"},
+]

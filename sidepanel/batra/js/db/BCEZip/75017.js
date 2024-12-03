@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Paris","Denomination_FR":null,"HouseNumber":"27","website":null,"NaceCode_desc":"Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille","MunicipalityFR":"Paris","StreetFR":"Boulevard Pereire","NaceCode":"10110","phone":null,"Zipcode":"75017","StreetNL":"Boulevard Pereire","EntityNumber":"0429.170.956","Denomination_NL":"COMPAGNIE DE DECOUPE DES VIANDES SAS","email":null,"Denomination_DE":null},
+]

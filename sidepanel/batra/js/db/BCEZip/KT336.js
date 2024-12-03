@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"KOWLOON","Denomination_FR":null,"HouseNumber":"334-336","website":null,"NaceCode_desc":"Fabrication d'aliments pour animaux de compagnie","MunicipalityFR":"KOWLOON","StreetFR":"KWUNTONG ROAD - ROOM 7","NaceCode":"10920","phone":"+852 29810811","Zipcode":"KT336","StreetNL":"KWUNTONG ROAD - ROOM 7","EntityNumber":"0691.813.502","Denomination_NL":null,"email":null,"Denomination_DE":"PETSOURCE ASIA LTD"},
+]

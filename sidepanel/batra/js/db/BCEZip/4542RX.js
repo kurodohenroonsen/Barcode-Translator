@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"HOEK","Denomination_FR":null,"HouseNumber":"4","website":null,"NaceCode_desc":"Culture de céréales et cultures industrielles","MunicipalityFR":"HOEK","StreetFR":"BINNENDIJK","NaceCode":"01110","phone":null,"Zipcode":"4542RX","StreetNL":"BINNENDIJK","EntityNumber":"0796.375.443","Denomination_NL":"HAAK JOZIAS","email":null,"Denomination_DE":null},
+{"MunicipalityNL":"HOEK","Denomination_FR":null,"HouseNumber":"4","website":null,"NaceCode_desc":"Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses","MunicipalityFR":"HOEK","StreetFR":"BINNENDIJK","NaceCode":"01110","phone":null,"Zipcode":"4542RX","StreetNL":"BINNENDIJK","EntityNumber":"0796.375.443","Denomination_NL":"HAAK JOZIAS","email":null,"Denomination_DE":null},
+]

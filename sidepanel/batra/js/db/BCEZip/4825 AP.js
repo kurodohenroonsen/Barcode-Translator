@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Breda","Denomination_FR":null,"HouseNumber":"1","website":null,"NaceCode_desc":"Fabrication de cacao, de chocolat et de produits de confiserie","MunicipalityFR":"Breda","StreetFR":"Riethil","NaceCode":"10820","phone":"+31 765878950","Zipcode":"4825 AP","StreetNL":"Riethil","EntityNumber":"0808.240.127","Denomination_NL":null,"email":null,"Denomination_DE":"Haribo The Netherlands & Belgium B.V."},
+]

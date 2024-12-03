@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Naarden","Denomination_FR":null,"HouseNumber":"19","website":null,"NaceCode_desc":"Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille","MunicipalityFR":"Naarden","StreetFR":"Turfpoortstraat","NaceCode":"10110","phone":null,"Zipcode":"1411ED","StreetNL":"Turfpoortstraat","EntityNumber":"0759.580.175","Denomination_NL":null,"email":null,"Denomination_DE":"OMB Slacht bv"},
+]

@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Rians","Denomination_FR":"LAITERIES H. TRIBALLAT SAS","HouseNumber":"SN","website":null,"NaceCode_desc":"Exploitation de laiteries et fabrication de fromage","MunicipalityFR":"Rians","StreetFR":"Route des Malvettes","NaceCode":"10510","phone":null,"Zipcode":"18220","StreetNL":"Route des Malvettes","EntityNumber":"0818.974.760","Denomination_NL":null,"email":null,"Denomination_DE":null},
+]

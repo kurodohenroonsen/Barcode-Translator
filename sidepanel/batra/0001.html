@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google Search Result Schema.org Example</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bescherelle La grammaire pour tous</title>
+
+<!-- Add schema.org metadata -->
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "Product",
+"name": "Bescherelle La grammaire pour tous",
+"alternativeText": "Bescherelle La grammaire pour tous",
+"description": "Une grammaire de référence, accessible à tous. Pour comprendre le fonctionnement de la langue française et mieux la maîtriser. Une grammaire pratique, accessible à tous Destiné à tous ceux qui s'intéressent au fonctionnement du français - lycéens, étudiants, enseignants ou amoureux de langue française -, l'ouvrage contient : - des explications claires, - plus de 1 000 ...",
+"brand": "Bescherelle",
+"offers": [
+{
+"price": "11403997", // Assuming price is in the HTML
+"availability": "InStock"
+}
+],
+"keywords": [
+"grammaire française",
+"bescherelle",
+"la grammaire pour tous",
+"reference grammaire",
+"français",
+"lycéens",
+"étudiants",
+"enseignants"
+],
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.5",
+"ratingCount": "1000"
+}
+}
+</script>
+
+</head>
+<body>
+
+<h1>Bescherelle La grammaire pour tous</h1>
+
+<div class="product-details">
+<p><strong>Description:</strong> Une grammaire de référence, accessible à tous. Pour comprendre le fonctionnement de la langue française et mieux la maîtriser. Une grammaire pratique, accessible à tous Destiné à tous ceux qui s'intéressent au fonctionnement du français - lycéens, étudiants, enseignants ou amoureux de langue française -, l'ouvrage contient : - des explications claires, - plus de 1 000 ...</p>
+<p><strong>Price (estimated):</strong> €11.40</p>
+<a href="#">Add to Cart</a>
+</div>
+
+<!-- Style using CSS (example) -->
+<style>
+.product-details {
+border: 1px solid #ccc;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+h1 {
+text-align: center;
+font-size: 1.5em;
+}
+
+p {
+line-height: 1.6;
+margin-bottom: 10px;
+}
+</style>
+
+<script>
+// Example function to display properties from the schema.org markup (replace with your actual code)
+function displayProperties() {
+const schemaMarkup = document.querySelector('script[type="application/ld+json"]').textContent;
+const properties = JSON.parse(schemaMarkup);
+
+// Iterate through properties
+for (const property in properties) {
+const value = properties[property];
+
+const propertyDiv = document.createElement('div');
+propertyDiv.textContent = `${property}: ${value}`;
+document.body.appendChild(propertyDiv);
+}
+}
+</script>
+
+</body>
+</html>

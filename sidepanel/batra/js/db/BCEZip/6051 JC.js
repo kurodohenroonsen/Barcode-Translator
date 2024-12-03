@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"6051 JC MAASBRACHT","Denomination_FR":null,"HouseNumber":"16","website":null,"NaceCode_desc":"Culture de la canne à sucre","MunicipalityFR":"6051 JC MAASBRACHT","StreetFR":"KLOOSTERSTRAAT","NaceCode":"01140","phone":null,"Zipcode":"6051 JC","StreetNL":"KLOOSTERSTRAAT","EntityNumber":"0712.978.902","Denomination_NL":null,"email":null,"Denomination_DE":"MAATSCHAP HEUTS"},
+]

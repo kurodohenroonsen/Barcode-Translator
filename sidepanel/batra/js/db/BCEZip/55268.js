@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"NIEDER-OLM","Denomination_FR":null,"HouseNumber":"1","website":null,"NaceCode_desc":"Fabrication d'autres produits alimentaires n.c.a.","MunicipalityFR":"NIEDER-OLM","StreetFR":"LUDWIG-ECKES -PLATZ","NaceCode":"10890","phone":"+49 6136350","Zipcode":"55268","StreetNL":"LUDWIG-ECKES -PLATZ","EntityNumber":"0545.987.165","Denomination_NL":null,"email":null,"Denomination_DE":"ECKES - GRANINI GROUP GMBH"},
+]

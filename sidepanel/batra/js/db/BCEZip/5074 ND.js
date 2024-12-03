@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"BIEZENMORTEL","Denomination_FR":null,"HouseNumber":"29","website":null,"NaceCode_desc":"Élevage de porcs reproducteurs","MunicipalityFR":"BIEZENMORTEL","StreetFR":"WINKELSESTRAAT","NaceCode":"01461","phone":null,"Zipcode":"5074 ND","StreetNL":"WINKELSESTRAAT","EntityNumber":"0849.583.903","Denomination_NL":null,"email":null,"Denomination_DE":"varkenshouderij mathijssen-van de pas"},
+]

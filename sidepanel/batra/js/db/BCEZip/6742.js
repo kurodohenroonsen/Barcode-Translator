@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"Etalle","Denomination_FR":"LA VIEILLE ECOLE ANTIQUITES","HouseNumber":"47","website":null,"NaceCode_desc":"Culture de gazon en rouleaux","MunicipalityFR":"Etalle","StreetFR":"Rue de la Gravalle,Chantemelle","NaceCode":"0130902","phone":null,"Zipcode":"6742","StreetNL":"Rue de la Gravalle,Chantemelle","EntityNumber":"2.026.639.905","Denomination_NL":null,"email":null,"Denomination_DE":null},
+{"MunicipalityNL":"Etalle","Denomination_FR":"Crucifix Etienne","HouseNumber":"36","website":null,"NaceCode_desc":"Élevage d'ovins et de caprins","MunicipalityFR":"Etalle","StreetFR":"Voie-de-Meix,Chantemelle","NaceCode":"01450","phone":null,"Zipcode":"6742","StreetNL":"Voie-de-Meix,Chantemelle","EntityNumber":"2.279.734.085","Denomination_NL":null,"email":null,"Denomination_DE":null},
+]

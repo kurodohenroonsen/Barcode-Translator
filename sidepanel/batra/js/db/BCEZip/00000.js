@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"2132 LS Hoofddorp","Denomination_FR":null,"HouseNumber":"167","website":null,"NaceCode_desc":"Transformation et conservation de fruits, sauf fabrication de fruits surgelés","MunicipalityFR":"2132 LS Hoofddorp","StreetFR":"Taurusavenue","NaceCode":"10392","phone":"0031 204569234","Zipcode":"00000","StreetNL":"Taurusavenue","EntityNumber":"0551.967.018","Denomination_NL":null,"email":null,"Denomination_DE":"DANTRADE BV"},
+]

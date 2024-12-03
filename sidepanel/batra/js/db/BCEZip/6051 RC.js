@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"NEERITTER","Denomination_FR":null,"HouseNumber":"7","website":null,"NaceCode_desc":"Culture de fruits","MunicipalityFR":"NEERITTER","StreetFR":"HUIKENSTRAAT","NaceCode":"01130","phone":"0031 475565578","Zipcode":"6051 RC","StreetNL":"HUIKENSTRAAT","EntityNumber":"0687.857.682","Denomination_NL":null,"email":null,"Denomination_DE":"CORSTJENS-ZENTJES MAARSCHAP"},
+{"MunicipalityNL":"NEERITTER","Denomination_FR":null,"HouseNumber":"7","website":null,"NaceCode_desc":"Culture de légumes, de melons, de racines et de tubercules","MunicipalityFR":"NEERITTER","StreetFR":"HUIKENSTRAAT","NaceCode":"01130","phone":"0031 475565578","Zipcode":"6051 RC","StreetNL":"HUIKENSTRAAT","EntityNumber":"0687.857.682","Denomination_NL":null,"email":null,"Denomination_DE":"CORSTJENS-ZENTJES MAARSCHAP"},
+]

@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"CARTAXO","Denomination_FR":null,"HouseNumber":"681","website":null,"NaceCode_desc":"Élevage de chevaux et d'autres équidés","MunicipalityFR":"CARTAXO","StreetFR":"VILA CHA DE OURIQUE","NaceCode":"01430","phone":"+35 1243704611","Zipcode":"2070-681","StreetNL":"VILA CHA DE OURIQUE","EntityNumber":"0844.140.619","Denomination_NL":null,"email":null,"Denomination_DE":"COMPANHIA AGRICOLA DA HERDADE DOS CHAVOES SA"},
+]

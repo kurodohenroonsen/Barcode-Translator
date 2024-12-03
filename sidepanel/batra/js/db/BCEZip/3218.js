@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Bettembourg","Denomination_FR":"PRESTA MEAT SA","HouseNumber":"1","website":null,"NaceCode_desc":"Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille","MunicipalityFR":"Bettembourg","StreetFR":"Rue des Cheminots","NaceCode":"10110","phone":null,"Zipcode":"3218","StreetNL":"Rue des Cheminots","EntityNumber":"0646.754.032","Denomination_NL":null,"email":"adm@presta-meat.lu","Denomination_DE":null},
+]

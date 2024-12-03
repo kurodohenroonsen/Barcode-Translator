@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"OOSTRUM","Denomination_FR":null,"HouseNumber":"6","website":null,"NaceCode_desc":"Transformation et conservation de pommes de terre, sauf fabrication de préparations surgelées à base de pommes de terre","MunicipalityFR":"OOSTRUM","StreetFR":"WITTE VENNENWEG","NaceCode":"10311","phone":null,"Zipcode":"5807 EJ","StreetNL":"WITTE VENNENWEG","EntityNumber":"0773.379.911","Denomination_NL":null,"email":null,"Denomination_DE":"RIXONA BV"},
+]

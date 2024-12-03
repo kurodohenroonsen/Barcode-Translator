@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"heerenveen","Denomination_FR":null,"HouseNumber":"9","website":null,"NaceCode_desc":"Fabrication de margarine et de graisses comestibles similaires","MunicipalityFR":"heerenveen","StreetFR":"de kuinder","NaceCode":"10420","phone":null,"Zipcode":"8444 dc","StreetNL":"de kuinder","EntityNumber":"0738.561.958","Denomination_NL":null,"email":null,"Denomination_DE":"smilde foods bv"},
+]

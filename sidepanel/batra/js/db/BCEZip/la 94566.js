@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"pleasanton","Denomination_FR":null,"HouseNumber":"6870","website":null,"NaceCode_desc":"Activités de soutien aux cultures","MunicipalityFR":"pleasanton","StreetFR":"koll center parkway","NaceCode":"01610","phone":null,"Zipcode":"la 94566","StreetNL":"koll center parkway","EntityNumber":"0730.626.269","Denomination_NL":null,"email":null,"Denomination_DE":"unchained labs inc"},
+]

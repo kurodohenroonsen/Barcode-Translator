@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Krakow","Denomination_FR":null,"HouseNumber":"13","website":null,"NaceCode_desc":"Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille","MunicipalityFR":"Krakow","StreetFR":"Kapelanka","NaceCode":"10110","phone":null,"Zipcode":"30347","StreetNL":"Kapelanka","EntityNumber":"0892.558.861","Denomination_NL":"Akord Meat SP Z.O.O","email":null,"Denomination_DE":null},
+]

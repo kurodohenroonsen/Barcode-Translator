@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"LONGFORD","Denomination_FR":null,"HouseNumber":"0","website":null,"NaceCode_desc":"Fabrication d'aliments pour animaux de compagnie","MunicipalityFR":"LONGFORD","StreetFR":"EDGEWORTHSTOWN","NaceCode":"10920","phone":"+353 436672100","Zipcode":"N39 AK40","StreetNL":"EDGEWORTHSTOWN","EntityNumber":"0539.859.933","Denomination_NL":null,"email":null,"Denomination_DE":"C&D FOODS"},
+]

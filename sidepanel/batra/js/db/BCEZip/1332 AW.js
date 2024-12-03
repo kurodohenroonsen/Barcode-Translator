@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"ALMERE","Denomination_FR":null,"HouseNumber":"38","website":null,"NaceCode_desc":"Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille","MunicipalityFR":"ALMERE","StreetFR":"BOLDERWEG","NaceCode":"10110","phone":"0031365322552","Zipcode":"1332 AW","StreetNL":"BOLDERWEG","EntityNumber":"0678.422.552","Denomination_NL":null,"email":"marcel.meyer@cth.biz","Denomination_DE":"CTH BV"},
+]

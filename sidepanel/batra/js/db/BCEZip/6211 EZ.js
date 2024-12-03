@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"MAASTRICHT","Denomination_FR":null,"HouseNumber":"18","website":null,"NaceCode_desc":"Culture de céréales et cultures industrielles","MunicipalityFR":"MAASTRICHT","StreetFR":"HET BAT","NaceCode":"01110","phone":null,"Zipcode":"6211 EZ","StreetNL":"HET BAT","EntityNumber":"0463.191.529","Denomination_NL":"DASSEN AGRIKULTUUR BV","email":null,"Denomination_DE":null},
+{"MunicipalityNL":"MAASTRICHT","Denomination_FR":null,"HouseNumber":"18","website":null,"NaceCode_desc":"Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses","MunicipalityFR":"MAASTRICHT","StreetFR":"HET BAT","NaceCode":"01110","phone":null,"Zipcode":"6211 EZ","StreetNL":"HET BAT","EntityNumber":"0463.191.529","Denomination_NL":"DASSEN AGRIKULTUUR BV","email":null,"Denomination_DE":null},
+]

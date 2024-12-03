@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"BOXMEER","Denomination_FR":null,"HouseNumber":"38","website":null,"NaceCode_desc":"Fabrication d'aliments pour animaux de ferme","MunicipalityFR":"BOXMEER","StreetFR":"VEERSTRAAT","NaceCode":"10910","phone":"+31 485589955","Zipcode":"5831 JN","StreetNL":"VEERSTRAAT","EntityNumber":"0672.489.023","Denomination_NL":null,"email":null,"Denomination_DE":"TROUW NUTRITION RUSSIA BV"},
+]

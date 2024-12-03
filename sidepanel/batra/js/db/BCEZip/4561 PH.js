@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Hulst","Denomination_FR":null,"HouseNumber":"46","website":null,"NaceCode_desc":"Fabrication de biscuits, de biscottes et de pâtisseries de conservation","MunicipalityFR":"Hulst","StreetFR":"Meridiaan","NaceCode":"10720","phone":null,"Zipcode":"4561 PH","StreetNL":"Meridiaan","EntityNumber":"0810.474.689","Denomination_NL":null,"email":null,"Denomination_DE":"Banketbakkerij R. De Cock BV"},
+]

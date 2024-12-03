@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"BERGHEM","Denomination_FR":null,"HouseNumber":"11","website":null,"NaceCode_desc":"Élevage de porcs à l'engrais","MunicipalityFR":"BERGHEM","StreetFR":"BURG VAN ERPSTRAAT","NaceCode":"01462","phone":null,"Zipcode":"5351 AR","StreetNL":"BURG VAN ERPSTRAAT","EntityNumber":"0770.648.370","Denomination_NL":null,"email":null,"Denomination_DE":"VAN BERKEL VARKENSHOUDERIJ BV"},
+]

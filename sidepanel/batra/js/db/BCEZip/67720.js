@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"FRANCE","Denomination_FR":"ALSACE LAIT","HouseNumber":"19","website":null,"NaceCode_desc":"Exploitation de laiteries et fabrication de fromage","MunicipalityFR":"FRANCE","StreetFR":"RUE DE L'INDUSTRIE","NaceCode":"10510","phone":null,"Zipcode":"67720","StreetNL":"RUE DE L'INDUSTRIE","EntityNumber":"0829.396.223","Denomination_NL":null,"email":null,"Denomination_DE":null},
+]

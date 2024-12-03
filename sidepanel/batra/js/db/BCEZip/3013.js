@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Rotterdam","Denomination_FR":null,"HouseNumber":"45","website":null,"NaceCode_desc":"Préparation de jus de fruits et de légumes","MunicipalityFR":"Rotterdam","StreetFR":"Stationsplein","NaceCode":"10320","phone":null,"Zipcode":"3013","StreetNL":"Stationsplein","EntityNumber":"0766.693.245","Denomination_NL":null,"email":"lawson.mavilla@gmail.com","Denomination_DE":"WAFFLE AND JUICE"},
+]

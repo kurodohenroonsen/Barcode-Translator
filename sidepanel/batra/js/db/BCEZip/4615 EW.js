@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Bergen op Zoom","Denomination_FR":"Bakkerij C. van Egeraat B.V.","HouseNumber":"9","website":null,"NaceCode_desc":"Fabrication artisanale de pain et de pâtisserie fraîche","MunicipalityFR":"Bergen op Zoom","StreetFR":"Pastoor de Meulemeesterstraat","NaceCode":"10712","phone":null,"Zipcode":"4615 EW","StreetNL":"Pastoor de Meulemeesterstraat","EntityNumber":"0694.853.065","Denomination_NL":null,"email":null,"Denomination_DE":null},
+]

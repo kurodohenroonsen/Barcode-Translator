@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Alpiarça","Denomination_FR":null,"HouseNumber":"xx","website":null,"NaceCode_desc":"Fabrication de légumes et de fruits surgelés","MunicipalityFR":"Alpiarça","StreetFR":"Rua E","NaceCode":"10393","phone":null,"Zipcode":"2090","StreetNL":"Rua E","EntityNumber":"0658.912.090","Denomination_NL":"MONLIZ-PRODUTOS ALIMENTARES DO MONDEGO E LIZ","email":null,"Denomination_DE":null},
+]

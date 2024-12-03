@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"ST QUENTIN FALLAVIER","Denomination_FR":"MARTINET SAS","HouseNumber":"24","website":null,"NaceCode_desc":"Transformation et conservation de légumes, sauf fabrication de légumes surgelés","MunicipalityFR":"ST QUENTIN FALLAVIER","StreetFR":"Rue du Limousin Zone industriell","NaceCode":"10391","phone":null,"Zipcode":"38297","StreetNL":"Rue du Limousin Zone industriell","EntityNumber":"0873.341.676","Denomination_NL":null,"email":null,"Denomination_DE":null},
+]

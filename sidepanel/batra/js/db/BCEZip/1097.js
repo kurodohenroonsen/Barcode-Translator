@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Budapest","Denomination_FR":"AZF HUNGARY SARL","HouseNumber":"6","website":null,"NaceCode_desc":"Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille","MunicipalityFR":"Budapest","StreetFR":"Gubacsiut","NaceCode":"10110","phone":"0049681927050","Zipcode":"1097","StreetNL":"Gubacsiut","EntityNumber":"0662.540.187","Denomination_NL":null,"email":"martial@azf-gmbh.com","Denomination_DE":null},
+]

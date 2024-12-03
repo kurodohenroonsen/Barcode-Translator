@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"biezenmortel","Denomination_FR":null,"HouseNumber":"12","website":null,"NaceCode_desc":"Élevage de porcs reproducteurs","MunicipalityFR":"biezenmortel","StreetFR":"gijzelsestraat","NaceCode":"01461","phone":"+31 135042791","Zipcode":"5074RS","StreetNL":"gijzelsestraat","EntityNumber":"0806.239.848","Denomination_NL":null,"email":null,"Denomination_DE":"MAATSCHAP DE GROOT-BERTENS"},
+]

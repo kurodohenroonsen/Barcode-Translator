@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"SPRUNDEL","Denomination_FR":null,"HouseNumber":"19","website":null,"NaceCode_desc":"Élevage de porcs à l'engrais","MunicipalityFR":"SPRUNDEL","StreetFR":"OOSTEINDSEWEG","NaceCode":"01462","phone":null,"Zipcode":"4174 SC","StreetNL":"OOSTEINDSEWEG","EntityNumber":"0769.639.669","Denomination_NL":null,"email":null,"Denomination_DE":"VARKENSFOKBEDRIJF BURGGRAAF BV"},
+]

@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"NEDERWEERT","Denomination_FR":null,"HouseNumber":"2","website":null,"NaceCode_desc":"Élevage de porcs reproducteurs","MunicipalityFR":"NEDERWEERT","StreetFR":"BOOLDERSDIJK","NaceCode":"01461","phone":null,"Zipcode":"6031 PK","StreetNL":"BOOLDERSDIJK","EntityNumber":"0758.667.880","Denomination_NL":null,"email":null,"Denomination_DE":"LANDBOUWBEDRIJF SALIMANS BV"},
+]

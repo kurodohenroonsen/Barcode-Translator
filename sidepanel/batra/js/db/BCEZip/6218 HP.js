@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"MAASTRICHT","Denomination_FR":null,"HouseNumber":"74","website":null,"NaceCode_desc":"Culture de céréales et cultures industrielles","MunicipalityFR":"MAASTRICHT","StreetFR":"VAN AKENWEG","NaceCode":"01110","phone":null,"Zipcode":"6218 HP","StreetNL":"VAN AKENWEG","EntityNumber":"0757.794.187","Denomination_NL":null,"email":null,"Denomination_DE":"LOONBEDRIJF PAULISSEN MIKE MAATSCHAP"},
+{"MunicipalityNL":"MAASTRICHT","Denomination_FR":null,"HouseNumber":"74","website":null,"NaceCode_desc":"Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses","MunicipalityFR":"MAASTRICHT","StreetFR":"VAN AKENWEG","NaceCode":"01110","phone":null,"Zipcode":"6218 HP","StreetNL":"VAN AKENWEG","EntityNumber":"0757.794.187","Denomination_NL":null,"email":null,"Denomination_DE":"LOONBEDRIJF PAULISSEN MIKE MAATSCHAP"},
+]

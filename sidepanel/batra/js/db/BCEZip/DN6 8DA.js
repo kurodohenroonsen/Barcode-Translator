@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"DONCASTER","Denomination_FR":"EUCV ABC GUIDANCE BELGIUM LTD","HouseNumber":"43","website":null,"NaceCode_desc":"Fabrication artisanale de pain et de pâtisserie fraîche","MunicipalityFR":"DONCASTER","StreetFR":"DEPT 1 OWSTON ROAD CARCROFT","NaceCode":"10712","phone":null,"Zipcode":"DN6 8DA","StreetNL":"DEPT 1 OWSTON ROAD CARCROFT","EntityNumber":"0836.423.080","Denomination_NL":null,"email":null,"Denomination_DE":null},
+]

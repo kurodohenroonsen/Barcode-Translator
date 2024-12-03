@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"RUNGIS","Denomination_FR":"FRANSAPINS - PRODUCTEURS CREUSOIS sarl","HouseNumber":"8","website":null,"NaceCode_desc":"Autres cultures permanentes","MunicipalityFR":"RUNGIS","StreetFR":"QUAI DU VAL DE LOIRE-FLEURS 116","NaceCode":"01290","phone":null,"Zipcode":"94631","StreetNL":"QUAI DU VAL DE LOIRE-FLEURS 116","EntityNumber":"0744.843.895","Denomination_NL":null,"email":null,"Denomination_DE":null},
+]

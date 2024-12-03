@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"ORSINGEN-NENZINGEN","Denomination_FR":null,"HouseNumber":"3","website":null,"NaceCode_desc":"Fabrication d'aliments homogénéisés et diététiques","MunicipalityFR":"ORSINGEN-NENZINGEN","StreetFR":"GEWERBESTRASSE","NaceCode":"10860","phone":"+353 5822328","Zipcode":"78359","StreetNL":"GEWERBESTRASSE","EntityNumber":"0707.810.582","Denomination_NL":null,"email":"coleary@glanbia.ie","Denomination_DE":null},
+]

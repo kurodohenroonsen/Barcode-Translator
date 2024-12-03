@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"NUNHEM","Denomination_FR":null,"HouseNumber":"152","website":null,"NaceCode_desc":"Culture de fruits","MunicipalityFR":"NUNHEM","StreetFR":"NAPOLEONSWEG","NaceCode":"01130","phone":null,"Zipcode":"6083 AB","StreetNL":"NAPOLEONSWEG","EntityNumber":"0413.362.134","Denomination_NL":"NUNHEMS NETHERLANDS BV","email":null,"Denomination_DE":null},
+{"MunicipalityNL":"NUNHEM","Denomination_FR":null,"HouseNumber":"152","website":null,"NaceCode_desc":"Culture de légumes, de melons, de racines et de tubercules","MunicipalityFR":"NUNHEM","StreetFR":"NAPOLEONSWEG","NaceCode":"01130","phone":null,"Zipcode":"6083 AB","StreetNL":"NAPOLEONSWEG","EntityNumber":"0413.362.134","Denomination_NL":"NUNHEMS NETHERLANDS BV","email":null,"Denomination_DE":null},
+]

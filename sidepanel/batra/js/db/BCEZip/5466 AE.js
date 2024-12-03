@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"VEGHEL","Denomination_FR":null,"HouseNumber":"5","website":null,"NaceCode_desc":"Fabrication de cacao, de chocolat et de produits de confiserie","MunicipalityFR":"VEGHEL","StreetFR":"TAYLORWEG","NaceCode":"10820","phone":null,"Zipcode":"5466 AE","StreetNL":"TAYLORWEG","EntityNumber":"0749.497.224","Denomination_NL":null,"email":null,"Denomination_DE":"MARS NEDERLAND BV"},
+]

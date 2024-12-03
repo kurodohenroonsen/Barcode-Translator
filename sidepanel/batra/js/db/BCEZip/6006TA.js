@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Weert","Denomination_FR":null,"HouseNumber":"4","website":null,"NaceCode_desc":"Élevage de chevaux et d'autres équidés","MunicipalityFR":"Weert","StreetFR":"IJzerenmanweg","NaceCode":"01430","phone":null,"Zipcode":"6006TA","StreetNL":"IJzerenmanweg","EntityNumber":"0759.874.937","Denomination_NL":null,"email":null,"Denomination_DE":"Hengstenhouderij De Ijzeren Man B.V."},
+]

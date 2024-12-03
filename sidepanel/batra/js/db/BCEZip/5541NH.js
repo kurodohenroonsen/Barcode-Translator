@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"REUSEL","Denomination_FR":null,"HouseNumber":"2","website":null,"NaceCode_desc":"Chasse; capture d'animaux, repeuplement en gibier et services annexes","MunicipalityFR":"REUSEL","StreetFR":"PEEL","NaceCode":"01500","phone":null,"Zipcode":"5541NH","StreetNL":"PEEL","EntityNumber":"0796.345.353","Denomination_NL":"VAN DEN BORNE JAN","email":null,"Denomination_DE":null},
+{"MunicipalityNL":"REUSEL","Denomination_FR":null,"HouseNumber":"2","website":null,"NaceCode_desc":"Culture et élevage associés","MunicipalityFR":"REUSEL","StreetFR":"PEEL","NaceCode":"01500","phone":null,"Zipcode":"5541NH","StreetNL":"PEEL","EntityNumber":"0796.345.353","Denomination_NL":"VAN DEN BORNE JAN","email":null,"Denomination_DE":null},
+]

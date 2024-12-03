@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"BAARLE-NASSAU","Denomination_FR":null,"HouseNumber":"2","website":null,"NaceCode_desc":"Culture de céréales et cultures industrielles","MunicipalityFR":"BAARLE-NASSAU","StreetFR":"NIJHOVEN","NaceCode":"01110","phone":null,"Zipcode":"5111 HE","StreetNL":"NIJHOVEN","EntityNumber":"0748.605.814","Denomination_NL":null,"email":null,"Denomination_DE":"JACOBS-MAES VOF"},
+{"MunicipalityNL":"BAARLE-NASSAU","Denomination_FR":null,"HouseNumber":"2","website":null,"NaceCode_desc":"Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses","MunicipalityFR":"BAARLE-NASSAU","StreetFR":"NIJHOVEN","NaceCode":"01110","phone":null,"Zipcode":"5111 HE","StreetNL":"NIJHOVEN","EntityNumber":"0748.605.814","Denomination_NL":null,"email":null,"Denomination_DE":"JACOBS-MAES VOF"},
+]

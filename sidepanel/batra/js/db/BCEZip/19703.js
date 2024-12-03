@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"Claymont, Delaware","Denomination_FR":null,"HouseNumber":"619","website":null,"NaceCode_desc":"Culture de céréales et cultures industrielles","MunicipalityFR":"Claymont, Delaware","StreetFR":"New York Avenue","NaceCode":"01110","phone":null,"Zipcode":"19703","StreetNL":"New York Avenue","EntityNumber":"0465.102.528","Denomination_NL":null,"email":null,"Denomination_DE":"VANDES PRODUKTEN"},
+{"MunicipalityNL":"Claymont, Delaware","Denomination_FR":null,"HouseNumber":"619","website":null,"NaceCode_desc":"Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses","MunicipalityFR":"Claymont, Delaware","StreetFR":"New York Avenue","NaceCode":"01110","phone":null,"Zipcode":"19703","StreetNL":"New York Avenue","EntityNumber":"0465.102.528","Denomination_NL":null,"email":null,"Denomination_DE":"VANDES PRODUKTEN"},
+]

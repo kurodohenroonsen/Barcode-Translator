@@ -1,0 +1,5 @@
+var datas = [
+{"MunicipalityNL":"REUSEL","Denomination_FR":null,"HouseNumber":"15","website":null,"NaceCode_desc":"Culture de fruits","MunicipalityFR":"REUSEL","StreetFR":"POSTELSEDIJK","NaceCode":"01130","phone":null,"Zipcode":"5541 NM","StreetNL":"POSTELSEDIJK","EntityNumber":"0763.988.925","Denomination_NL":null,"email":null,"Denomination_DE":"VAN DEN BORNE LOONWERK BV"},
+{"MunicipalityNL":"REUSEL","Denomination_FR":null,"HouseNumber":"15","website":null,"NaceCode_desc":"Culture de légumes, de melons, de racines et de tubercules","MunicipalityFR":"REUSEL","StreetFR":"POSTELSEDIJK","NaceCode":"01130","phone":null,"Zipcode":"5541 NM","StreetNL":"POSTELSEDIJK","EntityNumber":"0763.988.925","Denomination_NL":null,"email":null,"Denomination_DE":"VAN DEN BORNE LOONWERK BV"},
+{"MunicipalityNL":"REUSEL","Denomination_FR":null,"HouseNumber":"15","website":null,"NaceCode_desc":"Activités de soutien aux cultures","MunicipalityFR":"REUSEL","StreetFR":"POSTELSEDIJK","NaceCode":"01610","phone":null,"Zipcode":"5541 NM","StreetNL":"POSTELSEDIJK","EntityNumber":"0763.988.925","Denomination_NL":null,"email":null,"Denomination_DE":"VAN DEN BORNE LOONWERK BV"},
+]

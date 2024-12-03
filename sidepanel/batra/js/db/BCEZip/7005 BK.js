@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"DOETINCHEM","Denomination_FR":null,"HouseNumber":"31","website":null,"NaceCode_desc":"Fabrication d'autres produits alimentaires n.c.a.","MunicipalityFR":"DOETINCHEM","StreetFR":"KOOPMANSLAAN","NaceCode":"10890","phone":null,"Zipcode":"7005 BK","StreetNL":"KOOPMANSLAAN","EntityNumber":"0478.301.159","Denomination_NL":"LAMEX FOOD BV.","email":null,"Denomination_DE":null},
+]

@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"EDE GLD","Denomination_FR":null,"HouseNumber":"175","website":null,"NaceCode_desc":"Services annexes à la culture; aménagement des paysages","MunicipalityFR":"EDE GLD","StreetFR":"RUBENSSTRAAT","NaceCode":"01410","phone":"0031/318.675.500","Zipcode":"6717 VE","StreetNL":"RUBENSSTRAAT","EntityNumber":"0875.555.157","Denomination_NL":null,"email":null,"Denomination_DE":"DE HEUS VOEDERS BV"},
+{"MunicipalityNL":"EDE GLD","Denomination_FR":null,"HouseNumber":"175","website":null,"NaceCode_desc":"Élevage de vaches laitières","MunicipalityFR":"EDE GLD","StreetFR":"RUBENSSTRAAT","NaceCode":"01410","phone":"0031/318.675.500","Zipcode":"6717 VE","StreetNL":"RUBENSSTRAAT","EntityNumber":"0875.555.157","Denomination_NL":null,"email":null,"Denomination_DE":"DE HEUS VOEDERS BV"},
+]

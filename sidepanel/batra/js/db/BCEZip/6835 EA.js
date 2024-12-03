@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"ARNHEM","Denomination_FR":null,"HouseNumber":"1","website":null,"NaceCode_desc":"Exploitation de laiteries et fabrication de fromage","MunicipalityFR":"ARNHEM","StreetFR":"Groningensingel","NaceCode":"10510","phone":null,"Zipcode":"6835 EA","StreetNL":"Groningensingel","EntityNumber":"0455.249.209","Denomination_NL":"HOOGWEGT INTERNATIONAL BV","email":null,"Denomination_DE":null},
+]

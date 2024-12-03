@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"BROGLIANO","Denomination_FR":null,"HouseNumber":"7","website":null,"NaceCode_desc":"Fabrication de cacao, de chocolat et de produits de confiserie","MunicipalityFR":"BROGLIANO","StreetFR":"VIA OLTRE AGNO","NaceCode":"10820","phone":null,"Zipcode":"36070","StreetNL":"VIA OLTRE AGNO","EntityNumber":"0758.663.427","Denomination_NL":null,"email":null,"Denomination_DE":"IL VECCHIO FORNO SRL"},
+]

@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"BRUZ","Denomination_FR":"CHOICE GENETICS FRANCE","HouseNumber":"0","website":null,"NaceCode_desc":"Activités de soutien à la production animale","MunicipalityFR":"BRUZ","StreetFR":"Rue Maryse Bastié CS77207 Campus","NaceCode":"01620","phone":null,"Zipcode":"35172","StreetNL":"Rue Maryse Bastié CS77207 Campus","EntityNumber":"0700.637.235","Denomination_NL":null,"email":null,"Denomination_DE":null},
+]

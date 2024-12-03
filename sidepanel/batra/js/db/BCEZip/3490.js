@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"Dudelange","Denomination_FR":null,"HouseNumber":"2","website":null,"NaceCode_desc":"Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille","MunicipalityFR":"Dudelange","StreetFR":"rue Jean Jaurès","NaceCode":"10110","phone":null,"Zipcode":"3490","StreetNL":"rue Jean Jaurès","EntityNumber":"0442.164.897","Denomination_NL":"INTERMEAT SERVICES SA","email":null,"Denomination_DE":null},
+{"MunicipalityNL":"Dudelange","Denomination_FR":"VPS - VLEES PARTNER SERVICES","HouseNumber":"2","website":null,"NaceCode_desc":"Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille","MunicipalityFR":"Dudelange","StreetFR":"Rue Jean Jaurès","NaceCode":"10110","phone":null,"Zipcode":"3490","StreetNL":"Rue Jean Jaurès","EntityNumber":"0642.596.888","Denomination_NL":null,"email":null,"Denomination_DE":null},
+]

@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"STEENBERGEN","Denomination_FR":null,"HouseNumber":"8","website":null,"NaceCode_desc":"Culture de fruits","MunicipalityFR":"STEENBERGEN","StreetFR":"BOONHIL","NaceCode":"01130","phone":"0031/164672377","Zipcode":"4651VW","StreetNL":"BOONHIL","EntityNumber":"0831.664.736","Denomination_NL":null,"email":null,"Denomination_DE":"VAN MEIR - ADRIAANSEN VOF"},
+{"MunicipalityNL":"STEENBERGEN","Denomination_FR":null,"HouseNumber":"8","website":null,"NaceCode_desc":"Culture de légumes, de melons, de racines et de tubercules","MunicipalityFR":"STEENBERGEN","StreetFR":"BOONHIL","NaceCode":"01130","phone":"0031/164672377","Zipcode":"4651VW","StreetNL":"BOONHIL","EntityNumber":"0831.664.736","Denomination_NL":null,"email":null,"Denomination_DE":"VAN MEIR - ADRIAANSEN VOF"},
+]

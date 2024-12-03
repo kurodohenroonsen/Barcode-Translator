@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"BRASOV","Denomination_FR":null,"HouseNumber":"49A","website":null,"NaceCode_desc":"Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille","MunicipalityFR":"BRASOV","StreetFR":"BUJORULUI","NaceCode":"10110","phone":null,"Zipcode":"500381","StreetNL":"BUJORULUI","EntityNumber":"0702.872.391","Denomination_NL":null,"email":null,"Denomination_DE":"BELGA-MEAT"},
+{"MunicipalityNL":"BRASOV","Denomination_FR":null,"HouseNumber":"49A","website":null,"NaceCode_desc":"Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille","MunicipalityFR":"BRASOV","StreetFR":"BUJORULUI","NaceCode":"10110","phone":null,"Zipcode":"500381","StreetNL":"BUJORULUI","EntityNumber":"0702.872.391","Denomination_NL":null,"email":null,"Denomination_DE":"BELGA-MEAT"},
+]

@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Servon-sur-Vilaine","Denomination_FR":"Bridor SAS","HouseNumber":"-","website":"www.bridordefrance.com","NaceCode_desc":"Fabrication industrielle de pain et de pâtisserie fraîche","MunicipalityFR":"Servon-sur-Vilaine","StreetFR":"Zone artisanale Olivet","NaceCode":"10711","phone":"+33299001167","Zipcode":"35530","StreetNL":"Zone artisanale Olivet","EntityNumber":"0643.836.906","Denomination_NL":null,"email":"exportsales@le-duff.com","Denomination_DE":null},
+]

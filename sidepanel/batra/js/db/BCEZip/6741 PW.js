@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"LUNTEREN","Denomination_FR":null,"HouseNumber":"3","website":null,"NaceCode_desc":"Élevage de volailles, sauf poules","MunicipalityFR":"LUNTEREN","StreetFR":"KAUWENHOVEN","NaceCode":"01479","phone":"31 318578250","Zipcode":"6741 PW","StreetNL":"KAUWENHOVEN","EntityNumber":"0636.953.666","Denomination_NL":null,"email":null,"Denomination_DE":"VERBEEK'S BIO EUROPE BV"},
+]

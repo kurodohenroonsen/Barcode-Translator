@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 89">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fcedd5;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #6b441d;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-3" cx="44.5" cy="44.5" r="44"/>
+    </clipPath>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <g>
+      <circle class="cls-2" cx="44.5" cy="44.5" r="44"/>
+      <g class="cls-1">
+        <image width="1200" height="2000" transform="translate(-10 -26) scale(.12)" xlink:href="../JEU Batra/Cartes/Cartes profils/Karateka-OK.png"/>
+      </g>
+      <circle class="cls-4" cx="44.5" cy="44.5" r="44"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Dublin 2","Denomination_FR":null,"HouseNumber":".","website":null,"NaceCode_desc":"Fabrication d'aliments pour animaux de compagnie","MunicipalityFR":"Dublin 2","StreetFR":"Fitzwilliam Hall, Fitzwilliam Place","NaceCode":"10920","phone":null,"Zipcode":"D02 T292","StreetNL":"Fitzwilliam Hall, Fitzwilliam Place","EntityNumber":"0715.713.510","Denomination_NL":null,"email":null,"Denomination_DE":"elanco ireland ltd"},
+]

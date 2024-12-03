@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Schengen","Denomination_FR":null,"HouseNumber":"1C","website":null,"NaceCode_desc":"Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille","MunicipalityFR":"Schengen","StreetFR":"Route du Vin","NaceCode":"10110","phone":null,"Zipcode":"5445","StreetNL":"Route du Vin","EntityNumber":"0700.827.473","Denomination_NL":null,"email":"beefandco.lux@gmail.com","Denomination_DE":"BEEF&CO S.À R.L."},
+]

@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"PUTTEN","Denomination_FR":null,"HouseNumber":"36","website":null,"NaceCode_desc":"Exploitation de pépinières, sauf pépinières forestières","MunicipalityFR":"PUTTEN","StreetFR":"Boekweitstraat","NaceCode":"01301","phone":null,"Zipcode":"3882GN","StreetNL":"Boekweitstraat","EntityNumber":"0637.790.737","Denomination_NL":null,"email":null,"Denomination_DE":"KERSTBOOMTOTAAL B.V."},
+]

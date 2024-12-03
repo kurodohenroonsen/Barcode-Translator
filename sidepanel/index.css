@@ -1,0 +1,157 @@
+body{
+  text-align: center;
+  background-color: black;
+  color: yellow;
+}
+button{
+  background-color: yellow;
+  color:black;
+  border-radius: 8px;
+  font-size: 2em;
+}
+input{
+  background-color: yellow;
+  color:black;
+  border-radius: 8px;
+  font-size: 2em;
+}
+h1 h2 h3{
+background-color: yellow;
+color:black;
+width: 100%;
+}
+#scan-button{
+  font-size: 3em;
+}
+
+.languageFlag{
+  width: 20px;
+  filter: grayscale(50%);
+}
+
+.languageFlagSelected{
+  width: 30px;
+  filter: grayscale(0%);
+}
+.modal {
+  display: none;
+  /* Masqué par défaut */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Fond semi-transparent */
+}
+.off-content{
+  background-color: #3f3f3f;
+  margin: 5% auto;
+  padding: 20px;
+  border: 2px solid yellow;
+  width: 50%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+/* Contenu de la modale */
+.scanner-content {
+  background-color: #3f3f3f;
+  margin: 5% auto;
+  padding: 20px;
+  border: 2px solid yellow;
+  width: 50%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.geminiNanoGeneration-content {
+  position: relative;
+  text-align: center;
+  background-color: #3f3f3f;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+#barcodeTranslatorFileTypeModal{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#barcodeTranslatorFileDateModal{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#ld-json{
+  display:block;
+}
+/* Bouton pour fermer */
+.close {
+  color: yellow;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+}
+video{
+  width: 100% !important;
+}
+#barcodeTranslatorFiles_container{
+  display: none;
+}
+#barcodeTranslatorFiles_list_container{
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(200px, 1fr);
+  overflow-x: auto;
+  display:grid;
+
+  gap: 16px 16px;
+}
+#searchEngineCards_container{
+  display:none;
+}
+#off_result{
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-columns: minmax(200px, 1fr);
+  display:grid;
+  gap: 16px 16px;
+}
+#searchEngineCards_list_container{
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(200px, 1fr);
+  overflow-x: auto;
+  display:grid;
+
+  gap: 16px 16px;
+}
+.card{
+  background-color: #3f3f3f;
+  padding: 8px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(00, 00, 00, 0.4);
+  box-shadow: 0px 4px 8px 0px rgb(26, 113, 2);
+  max-width: 200px;
+}
+.off{
+  display:none;
+}
+#wikipediaPanel {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 14px;
+  max-width: 300px;
+  overflow: hidden;
+}

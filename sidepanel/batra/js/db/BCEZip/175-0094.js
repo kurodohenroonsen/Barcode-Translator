@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Tokio","Denomination_FR":null,"HouseNumber":"5-9-7","website":null,"NaceCode_desc":"Transformation et conservation de pommes de terre, sauf fabrication de préparations surgelées à base de pommes de terre","MunicipalityFR":"Tokio","StreetFR":"Narimasu, Itabashi-Ku","NaceCode":"10311","phone":null,"Zipcode":"175-0094","StreetNL":"Narimasu, Itabashi-Ku","EntityNumber":"0636.899.921","Denomination_NL":null,"email":null,"Denomination_DE":"Koike-ya Inc."},
+]

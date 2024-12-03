@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Bourgbarré","Denomination_FR":null,"HouseNumber":"S/N","website":null,"NaceCode_desc":"Exploitation de laiteries et fabrication de fromage","MunicipalityFR":"Bourgbarré","StreetFR":"Les Placis","NaceCode":"10510","phone":null,"Zipcode":"35230","StreetNL":"Les Placis","EntityNumber":"0456.605.229","Denomination_NL":"Lactalis Ingredients snc","email":null,"Denomination_DE":null},
+]

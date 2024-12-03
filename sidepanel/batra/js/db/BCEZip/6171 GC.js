@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"STEIN","Denomination_FR":null,"HouseNumber":"7","website":null,"NaceCode_desc":"Exploitation de pépinières, sauf pépinières forestières","MunicipalityFR":"STEIN","StreetFR":"KRUISSTRAAT","NaceCode":"01301","phone":null,"Zipcode":"6171 GC","StreetNL":"KRUISSTRAAT","EntityNumber":"0463.977.427","Denomination_NL":"GISBERTZ A.J.J. HOVENIERSBEDRIJF VOF","email":null,"Denomination_DE":null},
+]

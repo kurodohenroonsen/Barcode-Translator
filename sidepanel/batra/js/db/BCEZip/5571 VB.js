@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"BERGEIJK","Denomination_FR":null,"HouseNumber":"33","website":null,"NaceCode_desc":"Culture de céréales et cultures industrielles","MunicipalityFR":"BERGEIJK","StreetFR":"BREDASEDIJK","NaceCode":"01110","phone":null,"Zipcode":"5571 VB","StreetNL":"BREDASEDIJK","EntityNumber":"0746.674.920","Denomination_NL":null,"email":null,"Denomination_DE":"GEBR. KUIJKEN VOF"},
+{"MunicipalityNL":"BERGEIJK","Denomination_FR":null,"HouseNumber":"33","website":null,"NaceCode_desc":"Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses","MunicipalityFR":"BERGEIJK","StreetFR":"BREDASEDIJK","NaceCode":"01110","phone":null,"Zipcode":"5571 VB","StreetNL":"BREDASEDIJK","EntityNumber":"0746.674.920","Denomination_NL":null,"email":null,"Denomination_DE":"GEBR. KUIJKEN VOF"},
+]

@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Deventer","Denomination_FR":null,"HouseNumber":"8","website":null,"NaceCode_desc":"Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille","MunicipalityFR":"Deventer","StreetFR":"Duisburgstraat","NaceCode":"10110","phone":null,"Zipcode":"7418BK","StreetNL":"Duisburgstraat","EntityNumber":"0749.453.870","Denomination_NL":null,"email":null,"Denomination_DE":"S&E Flexwork bv"},
+]

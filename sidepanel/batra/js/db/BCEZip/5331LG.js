@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"KERKDRIEL","Denomination_FR":null,"HouseNumber":"2","website":null,"NaceCode_desc":"Élevage de volailles, sauf poules","MunicipalityFR":"KERKDRIEL","StreetFR":"Noordbeemdenweg","NaceCode":"01479","phone":null,"Zipcode":"5331LG","StreetNL":"Noordbeemdenweg","EntityNumber":"0720.877.670","Denomination_NL":null,"email":null,"Denomination_DE":"Hooymans  Pigeons B.V."},
+]

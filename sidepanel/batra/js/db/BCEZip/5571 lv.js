@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"bergeijk","Denomination_FR":null,"HouseNumber":"1","website":null,"NaceCode_desc":"Culture de fruits","MunicipalityFR":"bergeijk","StreetFR":"weebosch","NaceCode":"01130","phone":null,"Zipcode":"5571 lv","StreetNL":"weebosch","EntityNumber":"0740.883.426","Denomination_NL":null,"email":null,"Denomination_DE":"de backer-engelen vof"},
+{"MunicipalityNL":"bergeijk","Denomination_FR":null,"HouseNumber":"1","website":null,"NaceCode_desc":"Culture de légumes, de melons, de racines et de tubercules","MunicipalityFR":"bergeijk","StreetFR":"weebosch","NaceCode":"01130","phone":null,"Zipcode":"5571 lv","StreetNL":"weebosch","EntityNumber":"0740.883.426","Denomination_NL":null,"email":null,"Denomination_DE":"de backer-engelen vof"},
+]

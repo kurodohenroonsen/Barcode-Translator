@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"FEERWERD","Denomination_FR":null,"HouseNumber":"4","website":null,"NaceCode_desc":"Activités de soutien à la production animale","MunicipalityFR":"FEERWERD","StreetFR":"ZIJLSTERWEG","NaceCode":"01620","phone":"0031/594620920","Zipcode":"9892 PK","StreetNL":"ZIJLSTERWEG","EntityNumber":"0841.515.283","Denomination_NL":null,"email":null,"Denomination_DE":"ALTA NEDERLAND BV"},
+]

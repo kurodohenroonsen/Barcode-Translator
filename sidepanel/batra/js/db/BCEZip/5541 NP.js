@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"REUSEL","Denomination_FR":null,"HouseNumber":"12","website":null,"NaceCode_desc":"Culture de fruits","MunicipalityFR":"REUSEL","StreetFR":"LAARAKKERDIJK","NaceCode":"01130","phone":"0031 497644245","Zipcode":"5541 NP","StreetNL":"LAARAKKERDIJK","EntityNumber":"0690.842.314","Denomination_NL":null,"email":null,"Denomination_DE":"GEBROEDERS LAARAKKER MAATSCHAP"},
+{"MunicipalityNL":"REUSEL","Denomination_FR":null,"HouseNumber":"12","website":null,"NaceCode_desc":"Culture de légumes, de melons, de racines et de tubercules","MunicipalityFR":"REUSEL","StreetFR":"LAARAKKERDIJK","NaceCode":"01130","phone":"0031 497644245","Zipcode":"5541 NP","StreetNL":"LAARAKKERDIJK","EntityNumber":"0690.842.314","Denomination_NL":null,"email":null,"Denomination_DE":"GEBROEDERS LAARAKKER MAATSCHAP"},
+]

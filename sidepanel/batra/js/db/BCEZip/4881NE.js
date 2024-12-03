@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Zundert","Denomination_FR":null,"HouseNumber":"23","website":null,"NaceCode_desc":"Exploitation de pépinières, sauf pépinières forestières","MunicipalityFR":"Zundert","StreetFR":"Oekelsebaan","NaceCode":"01301","phone":null,"Zipcode":"4881NE","StreetNL":"Oekelsebaan","EntityNumber":"0767.882.781","Denomination_NL":null,"email":null,"Denomination_DE":"Plant Market bv"},
+]

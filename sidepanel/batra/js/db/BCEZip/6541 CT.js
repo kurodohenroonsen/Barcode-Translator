@@ -1,0 +1,4 @@
+var datas = [
+{"MunicipalityNL":"NIJMEGEN","Denomination_FR":null,"HouseNumber":"36-38","website":null,"NaceCode_desc":"Fabrication de produits amylacés","MunicipalityFR":"NIJMEGEN","StreetFR":"HANDELSWEG","NaceCode":"10620","phone":null,"Zipcode":"6541 CT","StreetNL":"HANDELSWEG","EntityNumber":"0807.995.845","Denomination_NL":null,"email":null,"Denomination_DE":"NOVIDON BV"},
+{"MunicipalityNL":"NIJMEGEN","Denomination_FR":null,"HouseNumber":"36-38","website":null,"NaceCode_desc":"Fabrication d'aliments pour animaux de ferme","MunicipalityFR":"NIJMEGEN","StreetFR":"HANDELSWEG","NaceCode":"10910","phone":null,"Zipcode":"6541 CT","StreetNL":"HANDELSWEG","EntityNumber":"0807.995.845","Denomination_NL":null,"email":null,"Denomination_DE":"NOVIDON BV"},
+]

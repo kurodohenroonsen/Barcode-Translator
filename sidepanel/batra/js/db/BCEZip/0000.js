@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"TSIM SHA TSUI","Denomination_FR":null,"HouseNumber":"61","website":null,"NaceCode_desc":"Fabrication d'autres produits alimentaires n.c.a.","MunicipalityFR":"TSIM SHA TSUI","StreetFR":"UNIT 2 LG1 MIRROR TOWER, MODY RD","NaceCode":"10890","phone":"86-57387015337","Zipcode":"0000","StreetNL":"UNIT 2 LG1 MIRROR TOWER, MODY RD","EntityNumber":"0707.818.896","Denomination_NL":null,"email":"stanley@brother.com.cn","Denomination_DE":"BROTHER HOLDING (HONG KONG)"},
+]

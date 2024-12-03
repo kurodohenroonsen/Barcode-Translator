@@ -1,0 +1,3 @@
+var datas = [
+{"MunicipalityNL":"Condé-sur-Escaut","Denomination_FR":null,"HouseNumber":"69","website":null,"NaceCode_desc":"Fabrication industrielle de pain et de pâtisserie fraîche","MunicipalityFR":"Condé-sur-Escaut","StreetFR":"Route de Bernissart","NaceCode":"10711","phone":null,"Zipcode":"59163","StreetNL":"Route de Bernissart","EntityNumber":"0459.832.755","Denomination_NL":"SARL KOT","email":null,"Denomination_DE":null},
+]
