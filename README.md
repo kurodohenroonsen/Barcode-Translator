@@ -33,7 +33,7 @@ Imagine having a personalized digital assistant that not only deciphers product 
               <img class="languageFlag" src="/images/languages/ko-KR.svg" id="ko-KR" alt="한국의" style="width:20px">
               <img class="languageFlag" src="/images/languages/nl-NL.svg" id="nl-NL" alt="Nederlands" style="width:20px">
 
-            </div>
+           
 - **📂 Decentralized Storage TODO:** Store and reuse data (inputs, prompts, outputs) on Archive.org, reducing energy-intensive computations.  
 
 ---
