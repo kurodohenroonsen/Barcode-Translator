@@ -18,7 +18,7 @@ Imagine having a personalized digital assistant that not only deciphers product 
 - **📝 Custom Prompts:** Tailor responses for food and non-food items to fit your needs.  
 - **🗣️ Text-to-Speech:** Accessible, user-friendly audio outputs in multiple languages.  
 - **🌐 Multilingual Translation:** Translate product information effortlessly for global audiences.  
-- **📂 Decentralized Storage:** Store and reuse data (inputs, prompts, outputs) on Archive.org, reducing energy-intensive computations.  
+TODO - **📂 Decentralized Storage:** Store and reuse data (inputs, prompts, outputs) on Archive.org, reducing energy-intensive computations.  
 
 ---
 
@@ -30,7 +30,8 @@ _A clear, intuitive interface welcoming users._
 
 ### Barcode Scanning  
 _Simple and efficient barcode detection in action._  
-![Barcode Scanning Screenshot](screenshots/barcode_scanning.png)  
+![Barcode Scanning Food Screenshot](screenshots/scan_food.png)  
+![Barcode Scanning Product Screenshot](screenshots/scan_product.png) 
 
 ### Custom Prompt Configuration  
 _Fully customizable prompts for tailored results._  
@@ -38,7 +39,7 @@ _Fully customizable prompts for tailored results._
 
 ### Output Display  
 _A concise, readable display of product information._  
-![Output Display Screenshot](screenshots/output_display.png)  
+![Output Display Screenshot](screenshots/prompt_config.png)  
 
 ---
 
