@@ -53,9 +53,20 @@ _Fully customizable prompts for tailored results._
 ### Output Display  
 _A concise, readable display of product information._  
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+
+    <div>
+        <h3>Output Display Food</h3>
     <img src="screenshots/result_food.png" alt="Output Display Food Screenshot" style="width: 30%; max-width: 200px;">
-    <img src="screenshots/result_unknown_food_japanese.png" alt="Output Display Food foreign language Screenshot" style="width: 30%; max-width: 200px;">
-    <img src="screenshots/result_unknown_product.png" alt="Output Display Product Screenshot" style="width: 30%; max-width: 200px;">
+   </div>
+    <div>
+        <h3>Output Display Food foreign language</h3>
+     <img src="screenshots/result_unknown_food_japanese.png" alt="Output Display Food foreign language Screenshot" style="width: 30%; max-width: 200px;">
+    </div>
+    <div>
+        <h3>Output Display Product</h3>
+        <img src="screenshots/result_unknown_product.png" alt="Output Display Product Screenshot" style="width: 30%; max-width: 200px;">
+    </div>
+   
 </div>
 
 ---
