@@ -9,7 +9,14 @@ Welcome to the **Barcode Translator Extension**, a next-generation tool designed
 
 Imagine having a personalized digital assistant that not only deciphers product details but also shares computationally expensive results through decentralized platforms like Archive.org for reuse. Inspired by the legendary work of Saint Isidore of Seville, this project catalogs product information like an encyclopedia, where **GTINs replace words in the index**.  
 
+Participating 
+<img src="/screenshots/challenge.png">
 ---
+
+### Demo Video
+
+[![Watch the demo video]](https://youtu.be/NX1cziCTg3s)
+
 
 ## 🎯 Key Features  
 
