@@ -30,9 +30,11 @@ _A clear, intuitive interface welcoming users._
 
 ### Barcode Scanning  
 _Simple and efficient barcode detection in action._  
-![Barcode Scanning Food Screenshot](screenshots/scan_food.png) 
-![Barcode Scanning Food foreign language Screenshot](screenshots/scan_food_japanese.png)  
-![Barcode Scanning Product Screenshot](screenshots/scan_product.png) 
+<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+    <img src="screenshots/scan_food.png" alt="Barcode Scanning Food Screenshot" style="width: 30%; max-width: 200px;">
+    <img src="screenshots/scan_food_japanese.png" alt="Barcode Scanning Food foreign language Screenshot" style="width: 30%; max-width: 200px;">
+    <img src="screenshots/scan_product.png" alt="Barcode Scanning Product Screenshot" style="width: 30%; max-width: 200px;">
+</div>
 
 ### Custom Prompt Configuration  
 _Fully customizable prompts for tailored results._  
@@ -40,9 +42,11 @@ _Fully customizable prompts for tailored results._
 
 ### Output Display  
 _A concise, readable display of product information._  
-![Output Display Food Screenshot](screenshots/result_food.png)  
-![Output Display Food foreign language Screenshot](screenshots/result_unknown_food_japaneseg)  
-![Output Display Product Screenshot](screenshots/result_unknown_product.png)  
+<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+    <img src="screenshots/result_food.png" alt="Output Display Food Screenshot" style="width: 30%; max-width: 200px;">
+    <img src="screenshots/result_unknown_food_japanese.png" alt="Output Display Food foreign language Screenshot" style="width: 30%; max-width: 200px;">
+    <img src="screenshots/result_unknown_product.png" alt="Output Display Product Screenshot" style="width: 30%; max-width: 200px;">
+</div>
 
 ---
 
