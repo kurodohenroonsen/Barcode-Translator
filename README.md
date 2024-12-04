@@ -20,18 +20,18 @@ Imagine having a personalized digital assistant that not only deciphers product 
 - **🌐 Multilingual Translation:** Translate product information effortlessly for global audiences.  
           <div id="languages">
               Available languages : <br>
-              <img class="languageFlag" src="sidepanel/batra/img/languages/zh-CNP.svg" id="zh-CNP" alt="Mandarin" style="width:20px">
-              <img class="languageFlag" src="sidepanel/batra/img/languages/es-ES.svg" id="es-ES" alt="Español" style="width:20px">
-              <img class="languageFlag" src="sidepanel/batra/img/languages/en-US.svg" id="en-US" alt="English" style="width:20px">
-              <img class="languageFlag" src="sidepanel/batra/img/languages/hi-IN.svg" id="hi-IN" alt="Hindi" style="width:20px">
-              <img class="languageFlag" src="sidepanel/batra/img/languages/pt-BR.svg" id="pt-BR" alt="Português" style="width:20px">
-              <img class="languageFlag" src="sidepanel/batra/img/languages/ru-RU.svg" id="ru-RU" alt="Русский" style="width:20px">
-              <img class="languageFlag" src="sidepanel/batra/img/languages/ja-JP.svg" id="ja-JP" alt="日本語" style="width:20px">
-              <img class="languageFlag" src="sidepanel/batra/img/languages/fr-FR.svg" id="fr-FR" alt="Français" style="width:20px">
-              <img class="languageFlag" src="sidepanel/batra/img/languages/de-DE.svg" id="de-DE" alt="Deutsch" style="width:20px">
-              <img class="languageFlag" src="sidepanel/batra/img/languages/it-IT.svg" id="it-IT" alt="Italiano" style="width:20px">
-              <img class="languageFlag" src="sidepanel/batra/img/languages/ko-KR.svg" id="ko-KR" alt="한국의" style="width:20px">
-              <img class="languageFlag" src="sidepanel/batra/img/languages/nl-NL.svg" id="nl-NL" alt="Nederlands" style="width:20px">
+              <img class="languageFlag" src="/languages/zh-CNP.svg" id="zh-CNP" alt="Mandarin" style="width:20px">
+              <img class="languageFlag" src="/languages/es-ES.svg" id="es-ES" alt="Español" style="width:20px">
+              <img class="languageFlag" src="/languages/en-US.svg" id="en-US" alt="English" style="width:20px">
+              <img class="languageFlag" src="/languages/hi-IN.svg" id="hi-IN" alt="Hindi" style="width:20px">
+              <img class="languageFlag" src="/languages/pt-BR.svg" id="pt-BR" alt="Português" style="width:20px">
+              <img class="languageFlag" src="/languages/ru-RU.svg" id="ru-RU" alt="Русский" style="width:20px">
+              <img class="languageFlag" src="/languages/ja-JP.svg" id="ja-JP" alt="日本語" style="width:20px">
+              <img class="languageFlag" src="/languages/fr-FR.svg" id="fr-FR" alt="Français" style="width:20px">
+              <img class="languageFlag" src="/languages/de-DE.svg" id="de-DE" alt="Deutsch" style="width:20px">
+              <img class="languageFlag" src="/languages/it-IT.svg" id="it-IT" alt="Italiano" style="width:20px">
+              <img class="languageFlag" src="/languages/ko-KR.svg" id="ko-KR" alt="한국의" style="width:20px">
+              <img class="languageFlag" src="/languages/nl-NL.svg" id="nl-NL" alt="Nederlands" style="width:20px">
 
             </div>
 - **📂 Decentralized Storage TODO:** Store and reuse data (inputs, prompts, outputs) on Archive.org, reducing energy-intensive computations.  
