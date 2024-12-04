@@ -18,15 +18,27 @@ Imagine having a personalized digital assistant that not only deciphers product 
 - **📝 Custom Prompts:** Tailor responses for food and non-food items to fit your needs.  
 - **🗣️ Text-to-Speech:** Accessible, user-friendly audio outputs in multiple languages.  
 - **🌐 Multilingual Translation:** Translate product information effortlessly for global audiences.  
+          <div id="languages">
+              Available languages : <br>
+              <img class="languageFlag" src="sidepanel/batra/images/languages/zh-CNP.svg" id="zh-CNP" alt="Mandarin">
+              <img class="languageFlag" src="sidepanel/batra/images/languages/es-ES.svg" id="es-ES" alt="Español">
+              <img class="languageFlag" src="sidepanel/batra/images/languages/en-US.svg" id="en-US" alt="English">
+              <img class="languageFlag" src="sidepanel/batra/images/languages/hi-IN.svg" id="hi-IN" alt="Hindi">
+              <img class="languageFlag" src="sidepanel/batra/images/languages/pt-BR.svg" id="pt-BR" alt="Português">
+              <img class="languageFlag" src="sidepanel/batra/images/languages/ru-RU.svg" id="ru-RU" alt="Русский">
+              <img class="languageFlag" src="sidepanel/batra/images/languages/ja-JP.svg" id="ja-JP" alt="日本語">
+              <img class="languageFlag" src="sidepanel/batra/images/languages/fr-FR.svg" id="fr-FR" alt="Français">
+              <img class="languageFlag" src="sidepanel/batra/images/languages/de-DE.svg" id="de-DE" alt="Deutsch">
+              <img class="languageFlag" src="sidepanel/batra/images/languages/it-IT.svg" id="it-IT" alt="Italiano">
+              <img class="languageFlag" src="sidepanel/batra/images/languages/ko-KR.svg" id="ko-KR" alt="한국의">
+              <img class="languageFlag" src="sidepanel/batra/images/languages/nl-NL.svg" id="nl-NL" alt="Nederlands">
+
+            </div>
 - **📂 Decentralized Storage TODO:** Store and reuse data (inputs, prompts, outputs) on Archive.org, reducing energy-intensive computations.  
 
 ---
 
 ## 📸 Screenshots  
-
-### Home Page  
-_A clear, intuitive interface welcoming users._  
-![Home Page Screenshot](screenshots/homepage.png)  
 
 ### Barcode Scanning  
 _Simple and efficient barcode detection in action._  
@@ -76,4 +88,4 @@ _A concise, readable display of product information._
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/barcode-translator.git
+   git clone https://github.com/kurodohenroonsen/Barcode-Translator.git
