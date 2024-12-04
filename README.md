@@ -1,6 +1,9 @@
 # 📦 Barcode Translator Extension GeminiNano: Tool for BaTra  
 **A revolutionary browser extension transforming how we understand product information, one scan at a time.**  
 
+
+Participating <br>
+[<a href = "https://googlechromeai.devpost.com/" target="_blank"><img src="/screenshots/challenge.png"></a>]
 ---
 
 ## 🌟 Introduction  
@@ -9,8 +12,7 @@ Welcome to the **Barcode Translator Extension**, a next-generation tool designed
 
 Imagine having a personalized digital assistant that not only deciphers product details but also shares computationally expensive results through decentralized platforms like Archive.org for reuse. Inspired by the legendary work of Saint Isidore of Seville, this project catalogs product information like an encyclopedia, where **GTINs replace words in the index**.  
 
-Participating <br>
-[<a href = "https://googlechromeai.devpost.com/" target="_blank"><img src="/screenshots/challenge.png"></a>]
+
 ---
 
 ### Demo Video
