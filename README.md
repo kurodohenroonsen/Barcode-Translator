@@ -31,9 +31,19 @@ _A clear, intuitive interface welcoming users._
 ### Barcode Scanning  
 _Simple and efficient barcode detection in action._  
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-    <img src="screenshots/scan_food.png" alt="Barcode Scanning Food Screenshot" style="width: 30%; max-width: 200px;">
+    <div>
+        <h3>Barcode Scanning Food</h3>
+        <img src="screenshots/scan_food.png" alt="Barcode Scanning Food Screenshot" style="width: 30%; max-width: 200px;">
+    </div>
+    <div>
+        <h3>Barcode Scanning Food foreign language</h3>
     <img src="screenshots/scan_food_japanese.png" alt="Barcode Scanning Food foreign language Screenshot" style="width: 30%; max-width: 200px;">
+    </div>
+    <div>
+        <h3>Barcode Scanning Product</h3>
     <img src="screenshots/scan_product.png" alt="Barcode Scanning Product Screenshot" style="width: 30%; max-width: 200px;">
+    </div>
+    
 </div>
 
 ### Custom Prompt Configuration  
