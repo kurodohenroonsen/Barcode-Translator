@@ -18,7 +18,7 @@ Imagine having a personalized digital assistant that not only deciphers product 
 - **📝 Custom Prompts:** Tailor responses for food and non-food items to fit your needs.  
 - **🗣️ Text-to-Speech:** Accessible, user-friendly audio outputs in multiple languages.  
 - **🌐 Multilingual Translation:** Translate product information effortlessly for global audiences.  
-TODO - **📂 Decentralized Storage:** Store and reuse data (inputs, prompts, outputs) on Archive.org, reducing energy-intensive computations.  
+- **📂 Decentralized Storage TODO:** Store and reuse data (inputs, prompts, outputs) on Archive.org, reducing energy-intensive computations.  
 
 ---
 
