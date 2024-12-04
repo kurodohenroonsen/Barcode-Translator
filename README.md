@@ -30,16 +30,19 @@ _A clear, intuitive interface welcoming users._
 
 ### Barcode Scanning  
 _Simple and efficient barcode detection in action._  
-![Barcode Scanning Food Screenshot](screenshots/scan_food.png)  
+![Barcode Scanning Food Screenshot](screenshots/scan_food.png) 
+![Barcode Scanning Food foreign language Screenshot](screenshots/scan_food_japanese.png)  
 ![Barcode Scanning Product Screenshot](screenshots/scan_product.png) 
 
 ### Custom Prompt Configuration  
 _Fully customizable prompts for tailored results._  
-![Custom Prompt Screenshot](screenshots/custom_prompt.png)  
+![Custom Prompt Screenshot](screenshots/prompt_config.png) 
 
 ### Output Display  
 _A concise, readable display of product information._  
-![Output Display Screenshot](screenshots/prompt_config.png)  
+![Output Display Food Screenshot](screenshots/result_food.png)  
+![Output Display Food foreign language Screenshot](screenshots/result_unknown_food_japaneseg)  
+![Output Display Product Screenshot](screenshots/result_unknown_product.png)  
 
 ---
 
