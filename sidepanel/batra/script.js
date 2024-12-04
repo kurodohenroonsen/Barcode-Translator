@@ -45,6 +45,7 @@ const SYSTEM_PROMPT = "You are a helpful and friendly assistant.";
     textarea = document.createElement('textarea');
     textarea.innerHTML = await translateMessage(promptNotFound);
     textarea.style.width = "90%"
+    textarea.style.height = "400px"
     popupDialog.prepend(textarea);
     var etapes = document.createElement('p');
     etapes.innerHTML = await translateMessage(`4. Nous allons appliquer le prompt suivant pour demander plus d'infos sur ce produit avec le résumé généré comme input.`);
@@ -111,6 +112,7 @@ const SYSTEM_PROMPT = "You are a helpful and friendly assistant.";
           cleanText = await translator.translate(cleanText);
           console.log("en : " + cleanText)
         }
+        textarea.innerHTML += " | " + cleanText;
         newStory += " | " + cleanText;
       }
       allCardText += newStory;

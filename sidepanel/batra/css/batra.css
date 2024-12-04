@@ -1650,5 +1650,5 @@ input:checked+.slider:before {
 
 }
 #selectedVoice{
-    display: none;
+    display: block;
 }

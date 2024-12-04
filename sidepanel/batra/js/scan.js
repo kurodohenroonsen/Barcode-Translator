@@ -15,7 +15,26 @@ function findGetParameter(parameterName) {
 
 
 var bacodeScanned = [];
+var lastResult;
+async function onScanSuccess(decodedText, decodedResult) {
+	console.log("1. Scan result : " + decodedResult);
+	if (decodedText !== lastResult) {
+		lastResult = decodedText;
 
+
+		// Vérification du format
+		if (decodedResult['result']['format']['formatName'] === 'EAN_13') {
+            window.location.href = "productFull.html?gtin=0"+decodedText;
+
+		}
+	}
+}
+var html5QrcodeScanner;
+
+//speak('Please scan the barcode with your webcam, if not prossible, please type the number which are under the little black bars!');
+html5QrcodeScanner = new Html5QrcodeScanner(
+    "qr-reader", { fps: 10, qrbox: 250 });
+html5QrcodeScanner.render(onScanSuccess);
 
 
 
