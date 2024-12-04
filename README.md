@@ -32,9 +32,8 @@ Imagine having a personalized digital assistant that not only deciphers product 
               <img class="languageFlag" src="/images/languages/it-IT.svg" id="it-IT" alt="Italiano" style="width:20px">
               <img class="languageFlag" src="/images/languages/ko-KR.svg" id="ko-KR" alt="한국의" style="width:20px">
               <img class="languageFlag" src="/images/languages/nl-NL.svg" id="nl-NL" alt="Nederlands" style="width:20px">
-
-           
-- **📂 Decentralized Storage TODO:** Store and reuse data (inputs, prompts, outputs) on Archive.org, reducing energy-intensive computations.  
+       
+- **📂 Decentralized Storage TODO:** Store and reuse data (inputs, prompts, outputs) with P2P (publishing on Archive.org), reducing energy-intensive computations.  
 
 ---
 
