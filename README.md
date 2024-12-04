@@ -1,94 +1,49 @@
-## Inspiration
+# 📦 Barcode Translator Extension GeminiNano: Tool for BaTra  
+**A revolutionary browser extension transforming how we understand product information, one scan at a time.**  
 
-## What it does
+---
 
-## How we built it
+## 🌟 Introduction  
 
-## Challenges we ran into
+Welcome to the **Barcode Translator Extension**, a next-generation tool designed to bridge the gap between product data and consumer understanding. Whether you're scanning a food item or exploring non-food products, this extension seamlessly extracts GTINs (Global Trade Item Numbers) from barcodes and delivers concise, accessible, and multilingual information.  
 
-## Accomplishments that we're proud of
+Imagine having a personalized digital assistant that not only deciphers product details but also shares computationally expensive results through decentralized platforms like Archive.org for reuse. Inspired by the legendary work of Saint Isidore of Seville, this project catalogs product information like an encyclopedia, where **GTINs replace words in the index**.  
 
-## What we learned
+---
 
-## What's next for Barcode Translator Extension GeminiNano, Tool for BaTra
-Barcode Translator Extension GeminiNano: Tool for BaTra
-Inspiration
+## 🎯 Key Features  
 
-Inspired by Saint Isidore of Seville, the patron saint of the internet, this project envisions an encyclopedic platform where barcodes (GTINs) serve as keys to universal product knowledge. Leveraging Google Chrome’s built-in AI model Gemini Nano, we aim to create a tool that efficiently connects consumers with meaningful data, reducing redundant local processing by publishing results on Archive.org.
-What It Does
+### 🛠 **What Makes It Unique?**
+- **🔍 Barcode Scanning:** Use your webcam or image uploads to detect GTINs with precision.  
+- **📝 Custom Prompts:** Tailor responses for food and non-food items to fit your needs.  
+- **🗣️ Text-to-Speech:** Accessible, user-friendly audio outputs in multiple languages.  
+- **🌐 Multilingual Translation:** Translate product information effortlessly for global audiences.  
+- **📂 Decentralized Storage:** Store and reuse data (inputs, prompts, outputs) on Archive.org, reducing energy-intensive computations.  
 
-    Barcode Scanning: Identifies products via GTIN.
-    Data Retrieval: Looks for product information in databases or online via Google Chrome’s Prompt API.
-    Knowledge Sharing: Publishes costly-to-generate results (inputs, prompts, and outputs) on Archive.org for global reuse.
-    Text-to-Speech (TTS): Ensures accessibility for visually impaired users.
-    Multilingual Support: Translates results into multiple languages.
+---
 
-How We Built It
-APIs Utilized:
+## 📸 Screenshots  
 
-    Prompt API (required):
-        Enables interaction with Gemini Nano to retrieve product data, structure responses, and summarize information.
-        Used for dynamic user queries (e.g., “What are the product benefits?”).
-    Rewrite API:
-        Refines and optimizes data outputs to ensure clarity and TTS-friendliness.
-    Summarization API:
-        Extracts concise, meaningful summaries from extensive product data for user-friendly responses.
+### Home Page  
+_A clear, intuitive interface welcoming users._  
+![Home Page Screenshot](screenshots/homepage.png)  
 
-Stack:
+### Barcode Scanning  
+_Simple and efficient barcode detection in action._  
+![Barcode Scanning Screenshot](screenshots/barcode_scanning.png)  
 
-    Google Chrome Extension Framework: Ensures seamless integration.
-    Gemini Nano Integration: Powers intelligent data extraction.
-    HTML, CSS, JavaScript: Provides a lightweight, intuitive user interface.
-    Archive.org API: Stores generated data for global access.
+### Custom Prompt Configuration  
+_Fully customizable prompts for tailored results._  
+![Custom Prompt Screenshot](screenshots/custom_prompt.png)  
 
-Challenges We Ran Into
+### Output Display  
+_A concise, readable display of product information._  
+![Output Display Screenshot](screenshots/output_display.png)  
 
-    Balancing API Usage: Ensuring compliance with contest requirements while maintaining efficiency.
-    Data Integrity: Avoiding inaccurate outputs when relying on AI-generated information.
-    Energy Optimization: Publishing data to Archive.org minimizes repeated costly local computations.
+---
 
-Accomplishments That We’re Proud Of
+## 🚀 How to Install  
 
-    Successfully integrating Gemini Nano APIs to enhance user experience.
-    Building a sustainable knowledge-sharing system through Archive.org.
-    Providing accessible, multilingual TTS responses for inclusivity.
-    Bridging the gap between raw product data and consumer needs.
-
-What We Learned
-
-    Prompt Design Matters: Crafting precise prompts significantly improves AI output quality.
-    Collaboration Potential: Sharing locally generated results globally reduces resource consumption.
-    Accessibility Is Key: TTS and multilingual support ensure the tool is usable for diverse audiences.
-
-What’s Next for Barcode Translator Extension GeminiNano
-
-    Improved AI Interaction: Explore additional use cases for Rewrite API and Summarization API.
-    Community Collaboration: Expand the repository of shared product data on Archive.org.
-    Advanced Personalization: Enable user-defined prompts tailored to specific product categories.
-    Mobile Version: Extend functionality to mobile browsers for on-the-go use.
-
-Contest-Specific Adaptations
-APIs Used:
-
-    Prompt API: Core to Gemini Nano interaction, enabling user queries and dynamic responses.
-    Rewrite API: Refines outputs to ensure readability and relevance.
-    Summarization API: Distills key product insights into concise, digestible blocks.
-
-APIs Not Used:
-
-    Write API: Excluded as this project focuses on structured responses and summaries, not generative content.
-    Hybrid AI (server-client): Deliberately avoided to prioritize full client-side functionality for privacy and simplicity.
-
-Why Barcode Translator Stands Out
-
-    Solves a real-world problem by bridging the gap between barcodes and meaningful product insights.
-    Pushes innovation by integrating AI into a browser extension, aligning with Chrome’s native capabilities.
-    Encourages global collaboration by sharing results on Archive.org, democratizing access to knowledge.
-
-Repository Details
-
-    Open Source: The code is hosted publicly with an MIT license.
-    Setup Instructions: Includes a comprehensive guide for installation and testing.
-    Languages: Supports English with translations into French, Spanish, and more.
-
-“Barcode Translator Extension GeminiNano: Revolutionizing barcodes into encyclopedic keys for global collaboration.”
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/barcode-translator.git
