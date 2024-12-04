@@ -3,7 +3,7 @@
 
 
 Participating <br>
-[<a href = "https://googlechromeai.devpost.com/" target="_blank"><img src="/screenshots/challenge.png"></a>]
+<a href = "https://googlechromeai.devpost.com/" target="_blank"><img src="/screenshots/challenge.png"></a>
 ---
 
 ## 🌟 Introduction  
